@@ -1,0 +1,1772 @@
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://localhost:3000/texts
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [36m304 [0m91.216 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://localhost:3000/texts
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [36m304 [0m80.755 ms - -[0m
+[0mGET / [36m304 [0m9.505 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m11.474 ms - -[0m
+[0mGET /images/json.png [36m304 [0m5.289 ms - -[0m
+[0mGET /db [36m304 [0m11.994 ms - -[0m
+[0mGET /texts [36m304 [0m29.317 ms - -[0m
+[0mGET /db [36m304 [0m5.950 ms - -[0m
+[0mPOST /text [33m404 [0m163.055 ms - 2[0m
+[0mPOST /text [33m404 [0m7.335 ms - 2[0m
+[0mPOST /text [33m404 [0m4.872 ms - 2[0m
+[0mGET /db [32m200 [0m4.080 ms - 17[0m
+[0mPOST /text [33m404 [0m4.582 ms - 2[0m
+[0mGET /db [32m200 [0m4.439 ms - 17[0m
+[0mPOST /text [33m404 [0m4.649 ms - 2[0m
+[0mGET /db [32m200 [0m3.232 ms - 17[0m
+[0mPOST /texts [32m201 [0m27.041 ms - 34[0m
+[0mGET /db [32m200 [0m3.368 ms - 71[0m
+[0mPOST /texts [32m201 [0m13.062 ms - 34[0m
+[0mGET /db [32m200 [0m4.186 ms - 123[0m
+[0mGET /texts/1 [32m200 [0m18.455 ms - 34[0m
+[0mPOST /texts [32m201 [0m6.140 ms - 34[0m
+[0mGET /db [32m200 [0m13.917 ms - 175[0m
+[0mGET /texts/1 [32m200 [0m5.694 ms - 34[0m
+[0mDELETE /texts/1 [32m200 [0m22.603 ms - 2[0m
+[0mGET /db [32m200 [0m3.543 ms - 123[0m
+[0mPOST /texts [32m201 [0m5.988 ms - 34[0m
+[0mGET /db [32m200 [0m5.644 ms - 175[0m
+[0mDELETE /texts/1 [33m404 [0m6.671 ms - 2[0m
+[0mDELETE /texts/2 [32m200 [0m4.505 ms - 2[0m
+[0mDELETE /texts/3 [32m200 [0m6.047 ms - 2[0m
+[0mGET /db [32m200 [0m3.099 ms - 71[0m
+[0mPOST /texts [32m201 [0m8.111 ms - 34[0m
+[0mGET /db [32m200 [0m3.030 ms - 123[0m
+[0mGET /texts/1 [33m404 [0m3.658 ms - 2[0m
+[0mDELETE /texts/1 [33m404 [0m3.422 ms - 2[0m
+[0mDELETE /texts/2 [33m404 [0m4.863 ms - 2[0m
+[0mDELETE /texts/3 [33m404 [0m3.369 ms - 2[0m
+[0mGET /db [32m200 [0m4.549 ms - 123[0m
+[0mGET /db [32m200 [0m3.024 ms - 123[0m
+[0mGET /db [32m200 [0m3.039 ms - 123[0m
+[0mPOST /texts/5 [33m404 [0m7.208 ms - 2[0m
+[0mGET /db [32m200 [0m3.532 ms - 123[0m
+[0mGET /db [32m200 [0m3.153 ms - 123[0m
+[0mPOST /texts/5 [33m404 [0m3.862 ms - 2[0m
+[0mGET /db [32m200 [0m4.486 ms - 123[0m
+[0mGET /texts/5 [32m200 [0m5.132 ms - 34[0m
+[0mPOST /texts/5 [33m404 [0m4.142 ms - 2[0m
+[0mGET /db [32m200 [0m3.070 ms - 123[0m
+[0mGET /texts/5 [32m200 [0m3.828 ms - 34[0m
+[0mPOST /texts/5 [33m404 [0m5.976 ms - 2[0m
+[0mGET /db [32m200 [0m3.047 ms - 123[0m
+[0mGET /texts/5 [32m200 [0m3.887 ms - 34[0m
+[0mPUT /texts/5 [32m200 [0m11.328 ms - 33[0m
+[0mGET /db [32m200 [0m6.797 ms - 122[0m
+[0mGET /db [32m200 [0m3.026 ms - 122[0m
+[0mGET /texts/5 [32m200 [0m6.936 ms - 33[0m
+[0mPUT /texts/5 [32m200 [0m5.645 ms - 33[0m
+[0mGET /db [32m200 [0m3.088 ms - 122[0m
+[0mGET /db [32m200 [0m9.599 ms - 122[0m
+[0mPUT /texts/5 [32m200 [0m4.337 ms - 33[0m
+[0mGET /texts?from=hahaha [32m200 [0m26.068 ms - 45[0m
+[0mGET /db [32m200 [0m4.714 ms - 122[0m
+[0mGET /db [32m200 [0m5.680 ms - 122[0m
+[0mPUT /texts/5 [32m200 [0m6.478 ms - 33[0m
+[0mGET /texts?id=5 [32m200 [0m8.711 ms - 45[0m
+[0mGET /db [32m200 [0m3.091 ms - 122[0m
+[0mPOST /texts [32m201 [0m10.432 ms - 35[0m
+[0mGET /texts?color=%23FFFFFF [32m200 [0m14.960 ms - 47[0m
+[0mDELETE / [33m404 [0m3.381 ms - 2[0m
+[0mDELETE /text [33m404 [0m3.125 ms - 2[0m
+[0mDELETE /texts [33m404 [0m6.215 ms - 2[0m
+[0mDELETE /texts/4 [32m200 [0m6.149 ms - 2[0m
+[0mDELETE /texts/5 [32m200 [0m6.404 ms - 2[0m
+[0mDELETE /texts/6 [32m200 [0m5.802 ms - 2[0m
+[0mGET /texts [32m200 [0m5.655 ms - 2[0m
+[0mGET /colors [33m404 [0m10.442 ms - 2[0m
+[0mGET / [32m200 [0m12.961 ms - -[0m
+[0mGET // [32m200 [0m9.467 ms - -[0m
+[0mGET /db [32m200 [0m7.485 ms - 17[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [32m200 [0m78.076 ms - 18[0m
+[0mPOST /colors [32m201 [0m189.867 ms - 161[0m
+(node:1748) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: ENOENT: no such file or directory, open '/home/suabbasi/rest-server/.~db.json'
+[0mGET /db [32m200 [0m11.917 ms - 219[0m
+[0mDELETE /colors/1 [32m200 [0m30.424 ms - 2[0m
+[0mGET /db [32m200 [0m8.258 ms - 18[0m
+[0mGET /colors [32m200 [0m21.560 ms - 2[0m
+[0mPOST /colors [32m201 [0m16.291 ms - 142[0m
+[0mGET /db [32m200 [0m4.492 ms - 200[0m
+[0mPATCH /colors?color=0 [33m404 [0m6.455 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+
+  Other routes
+  /:resource/color/:color -> /:resource/:color
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET / [36m304 [0m56.723 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m11.089 ms - -[0m
+[0mGET /images/json.png [36m304 [0m5.244 ms - -[0m
+[0mGET /db [32m200 [0m37.483 ms - 18[0m
+[0mGET /colors/color/0 [33m404 [0m49.227 ms - 2[0m
+[0mGET /colors/ [32m200 [0m24.346 ms - 2[0m
+[0mGET /db [36m304 [0m6.610 ms - -[0m
+[0mGET /colors [32m200 [0m6.871 ms - 2[0m
+[0mGET /db [36m304 [0m4.563 ms - -[0m
+[0mPOST /colors [32m201 [0m194.164 ms - 143[0m
+[0mGET /db [32m200 [0m5.500 ms - 201[0m
+[0mGET /colors [32m200 [0m15.235 ms - 165[0m
+[0mGET /colors/color/0 [33m404 [0m9.881 ms - 2[0m
+[0mGET /colors/color/ [33m404 [0m5.794 ms - 2[0m
+[0mGET /colors/color/ [33m404 [0m6.228 ms - 2[0m
+[0mGET /colors/0 [33m404 [0m5.594 ms - 2[0m
+[0mGET /colors/1 [32m200 [0m10.687 ms - 143[0m
+[0mGET /colors?color=0 [32m200 [0m22.045 ms - 165[0m
+[0mGET /colors/color/0 [33m404 [0m5.976 ms - 2[0m
+[0mGET /colors/color/1 [32m200 [0m6.536 ms - 143[0m
+[0mGET /colors/cdsf/1 [33m404 [0m44.250 ms - 2[0m
+[0mGET /colors/color/1 [36m304 [0m6.474 ms - -[0m
+[0mGET /colors/color/1 [36m304 [0m10.158 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /colors/color/1 [33m404 [0m98.532 ms - 2[0m
+[0mGET / [36m304 [0m11.432 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.665 ms - -[0m
+[0mGET /images/json.png [36m304 [0m4.903 ms - -[0m
+[0mGET /db [36m304 [0m11.185 ms - -[0m
+[0mGET /colors [36m304 [0m35.218 ms - -[0m
+[0mGET /db [36m304 [0m5.216 ms - -[0m
+[0mGET /colors/1.has_commands [33m404 [0m13.605 ms - 2[0m
+[0mGET /colors/1 [36m304 [0m9.862 ms - -[0m
+[0mGET /colors?color=0 [36m304 [0m22.808 ms - -[0m
+[0mPATCH /colors/1 [32m200 [0m190.470 ms - 143[0m
+[0mGET /colors?color=0 [32m200 [0m6.581 ms - 165[0m
+[0mPUT /colors/1 [32m200 [0m14.303 ms - 31[0m
+[0mGET /colors?color=0 [32m200 [0m7.644 ms - 43[0m
+[0mDELETE /colors/1 [32m200 [0m15.680 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /colors?color=0 [32m200 [0m102.265 ms - 2[0m
+[0mGET / [36m304 [0m14.017 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m15.423 ms - -[0m
+[0mGET /images/json.png [36m304 [0m6.904 ms - -[0m
+[0mGET /db [32m200 [0m12.226 ms - 18[0m
+[0mGET /colors [32m200 [0m8.217 ms - 2[0m
+[0mGET /db [36m304 [0m6.677 ms - -[0m
+[0mGET /colors [36m304 [0m5.657 ms - -[0m
+[0mPOST /colors [32m201 [0m196.108 ms - 143[0m
+[0mGET /colors [32m200 [0m11.866 ms - 165[0m
+[0mGET /db [32m200 [0m6.178 ms - 201[0m
+[0mGET /colors?color=0 [32m200 [0m25.027 ms - 165[0m
+[0mGET /colors?color=0 [32m200 [0m5.598 ms - 165[0m
+[0mGET /colors [36m304 [0m5.912 ms - -[0m
+[0mGET /colors?color=0 [32m200 [0m5.076 ms - 165[0m
+[0mPATCH /colors/ [33m404 [0m8.787 ms - 2[0m
+[0mGET /colors?color=0 [32m200 [0m7.868 ms - 165[0m
+[0mPATCH /colors/1 [32m200 [0m19.820 ms - 143[0m
+[0mGET /colors [32m200 [0m6.873 ms - 165[0m
+[0mGET / [36m304 [0m10.742 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.866 ms - -[0m
+[0mGET /images/json.png [36m304 [0m2.780 ms - -[0m
+[0mGET /db [32m200 [0m4.373 ms - 201[0m
+[0mGET /db [36m304 [0m4.630 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [36m304 [0m82.028 ms - -[0m
+[0mGET /db [36m304 [0m15.127 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/file-sync.js:25
+        throw e;
+        ^
+
+SyntaxError: Malformed JSON in file: db.json
+Unexpected token ':' at 12:19
+  "incoming-texts":[],
+                  ^
+    at SyntaxError (native)
+    at Object.parseJSON (/usr/local/lib/node_modules/json-server/node_modules/jju/lib/parse.js:745:13)
+    at parse (/usr/local/lib/node_modules/json-server/node_modules/json-parse-helpfulerror/index.js:10:13)
+    at Object.read (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/file-sync.js:20:16)
+    at LodashWrapper.db.read (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/_index.js:36:29)
+    at module.exports (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/_index.js:96:15)
+    at low (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/index.node.js:12:10)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/utils/load.js:27:12)
+    at start (/usr/local/lib/node_modules/json-server/src/cli/run.js:103:5)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/run.js:139:3)
+
+  \{^_^}/ hi!
+
+  Loading db.json
+/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/file-sync.js:25
+        throw e;
+        ^
+
+SyntaxError: Malformed JSON in file: db.json
+Unexpected token ':' at 12:19
+  "incoming-texts": [],
+                  ^
+    at SyntaxError (native)
+    at Object.parseJSON (/usr/local/lib/node_modules/json-server/node_modules/jju/lib/parse.js:745:13)
+    at parse (/usr/local/lib/node_modules/json-server/node_modules/json-parse-helpfulerror/index.js:10:13)
+    at Object.read (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/file-sync.js:20:16)
+    at LodashWrapper.db.read (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/_index.js:36:29)
+    at module.exports (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/_index.js:96:15)
+    at low (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/index.node.js:12:10)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/utils/load.js:27:12)
+    at start (/usr/local/lib/node_modules/json-server/src/cli/run.js:103:5)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/run.js:139:3)
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/incoming-texts
+  http://localhost:3000/incoming-errors
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET / [36m304 [0m56.793 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m11.533 ms - -[0m
+[0mGET /images/json.png [36m304 [0m6.000 ms - -[0m
+[0mGET /db [32m200 [0m43.080 ms - 250[0m
+[0mGET /db [36m304 [0m8.429 ms - -[0m
+[0mGET /incoming-texts [32m200 [0m32.847 ms - 2[0m
+[0mGET /db [36m304 [0m6.480 ms - -[0m
+[0mGET / [36m304 [0m4.341 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.922 ms - -[0m
+[0mGET /images/json.png [36m304 [0m2.994 ms - -[0m
+[0mGET /db [36m304 [0m4.874 ms - -[0m
+[0mGET /db [36m304 [0m6.217 ms - -[0m
+[0mGET /db [36m304 [0m5.118 ms - -[0m
+[0mGET /db [36m304 [0m4.960 ms - -[0m
+[0mGET /db [36m304 [0m4.830 ms - -[0m
+[0mGET /db [36m304 [0m8.309 ms - -[0m
+[0mGET /db [36m304 [0m6.048 ms - -[0m
+[0mGET /db [36m304 [0m5.051 ms - -[0m
+[0mGET /colors [32m200 [0m24.828 ms - 165[0m
+[0mDELETE /colors/1 [32m200 [0m37.387 ms - 2[0m
+[0mGET /colors [32m200 [0m4.112 ms - 2[0m
+[0mGET /colors?color=9393 [32m200 [0m7.591 ms - 2[0m
+[0mGET /colors?color=haha [32m200 [0m5.910 ms - 2[0m
+[0mGET /colors [36m304 [0m13.579 ms - -[0m
+[0mGET /colors?color=4041052 [32m200 [0m11.233 ms - 2[0m
+[0mGET /colors?color=4041052 [32m200 [0m4.114 ms - 2[0m
+[0mPOST /colors [32m201 [0m183.908 ms - 149[0m
+[0mGET /colors?color=4041052 [32m200 [0m15.907 ms - 171[0m
+[0mGET /colors/1/commands [33m404 [0m22.409 ms - 2[0m
+[0mGET /colors [32m200 [0m6.244 ms - 171[0m
+[0mGET /colors/1 [32m200 [0m10.817 ms - 149[0m
+[0mGET /colors?color=2402224 [32m200 [0m5.206 ms - 2[0m
+[0mGET /colors?color=2402224 [32m200 [0m4.595 ms - 2[0m
+[0mPOST /colors [32m201 [0m12.409 ms - 149[0m
+[0mGET /colors?color=2402224 [32m200 [0m5.070 ms - 171[0m
+[0mGET /colors/2/commands [33m404 [0m12.614 ms - 2[0m
+[0mGET /colors/1 [36m304 [0m9.317 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /colors [33m404 [0m80.145 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/file-sync.js:25
+        throw e;
+        ^
+
+SyntaxError: Malformed JSON in file: db.json
+Unexpected token '\'' at 1:2
+{'colors':[]}
+ ^
+    at SyntaxError (native)
+    at Object.parseJSON (/usr/local/lib/node_modules/json-server/node_modules/jju/lib/parse.js:745:13)
+    at parse (/usr/local/lib/node_modules/json-server/node_modules/json-parse-helpfulerror/index.js:10:13)
+    at Object.read (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/file-sync.js:20:16)
+    at LodashWrapper.db.read (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/_index.js:36:29)
+    at module.exports (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/_index.js:96:15)
+    at low (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/index.node.js:12:10)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/utils/load.js:27:12)
+    at start (/usr/local/lib/node_modules/json-server/src/cli/run.js:103:5)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/run.js:139:3)
+
+  \{^_^}/ hi!
+
+  Loading db.json
+/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/file-sync.js:25
+        throw e;
+        ^
+
+SyntaxError: Malformed JSON in file: db.json
+Unexpected token '\'' at 1:2
+{'colors':[]}
+ ^
+    at SyntaxError (native)
+    at Object.parseJSON (/usr/local/lib/node_modules/json-server/node_modules/jju/lib/parse.js:745:13)
+    at parse (/usr/local/lib/node_modules/json-server/node_modules/json-parse-helpfulerror/index.js:10:13)
+    at Object.read (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/file-sync.js:20:16)
+    at LodashWrapper.db.read (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/_index.js:36:29)
+    at module.exports (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/_index.js:96:15)
+    at low (/usr/local/lib/node_modules/json-server/node_modules/lowdb/lib/index.node.js:12:10)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/utils/load.js:27:12)
+    at start (/usr/local/lib/node_modules/json-server/src/cli/run.js:103:5)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/run.js:139:3)
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /colors [32m200 [0m98.475 ms - 2[0m
+[0mGET / [36m304 [0m14.266 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.409 ms - -[0m
+[0mGET /images/json.png [36m304 [0m6.724 ms - -[0m
+[0mGET /db [32m200 [0m12.352 ms - 18[0m
+[0mGET /db [36m304 [0m5.878 ms - -[0m
+[0mGET /colors?color=536899 [32m200 [0m7.569 ms - 2[0m
+[0mGET /colors?color=536899 [32m200 [0m4.065 ms - 2[0m
+[0mPOST /colors [32m201 [0m174.803 ms - 148[0m
+[0mGET /colors?color=536899 [32m200 [0m22.005 ms - 170[0m
+[0mGET /colors/1/commands [33m404 [0m22.717 ms - 2[0m
+[0mGET /db [32m200 [0m4.785 ms - 206[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /colors?color=0 [32m200 [0m97.059 ms - 2[0m
+[0mPOST /colors [32m201 [0m181.525 ms - 143[0m
+[0mGET /db [32m200 [0m13.909 ms - 201[0m
+[0mGET /db [36m304 [0m10.070 ms - -[0m
+[0mGET /db [36m304 [0m5.990 ms - -[0m
+[0mGET /colors?color=1 [32m200 [0m18.276 ms - 2[0m
+[0mPOST /colors [32m201 [0m13.705 ms - 156[0m
+[0mGET /db [32m200 [0m4.923 ms - 399[0m
+[0mGET /db [36m304 [0m6.502 ms - -[0m
+[0mPOST //colors [0m- [0m- ms - -[0m
+[0mPOST //colors/ [33m404 [0m7.600 ms - 2[0m
+[0mPOST //colors [33m404 [0m7.082 ms - 2[0m
+[0mPOST /colors [32m201 [0m9.398 ms - 26[0m
+[0mGET /db [32m200 [0m8.884 ms - 443[0m
+[0mPOST /colors [0m- [0m- ms - -[0m
+[0mPOST //colors [33m404 [0m14.305 ms - 2[0m
+[0mPOST /colors [32m201 [0m11.024 ms - 27[0m
+[0mGET /db [32m200 [0m7.560 ms - 515[0m
+[0mDELETE /colors/1 [32m200 [0m24.253 ms - 2[0m
+[0mGET /db [32m200 [0m11.007 ms - 334[0m
+[0mDELETE /colors/2 [32m200 [0m12.892 ms - 2[0m
+[0mDELETE /colors/3 [32m200 [0m7.242 ms - 2[0m
+[0mDELETE /colors/4 [32m200 [0m13.031 ms - 2[0m
+[0mGET /db [32m200 [0m4.815 ms - 65[0m
+[0mDELETE /colors/5 [32m200 [0m7.057 ms - 2[0m
+[0mGET /db [32m200 [0m4.065 ms - 18[0m
+[0mGET /colors?color=2822924 [32m200 [0m4.352 ms - 2[0m
+[0mGET /colors?color=2822924 [32m200 [0m4.857 ms - 2[0m
+[0mPOST /colors [32m201 [0m8.802 ms - 205[0m
+[0mGET /colors?color=2822924 [32m200 [0m12.110 ms - 233[0m
+[0mGET /colors/1/commands [33m404 [0m20.901 ms - 2[0m
+[0mGET /db [32m200 [0m4.845 ms - 275[0m
+[0mGET /colors/1 [32m200 [0m15.721 ms - 205[0m
+[0mGET /colors/1/commands [33m404 [0m5.034 ms - 2[0m
+[0mGET /colors/1?commands [32m200 [0m29.643 ms - 205[0m
+[0mGET /colors?color=8892949 [32m200 [0m4.378 ms - 2[0m
+[0mGET /colors?color=8892949 [32m200 [0m4.439 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.841 ms - 205[0m
+[0mGET /colors?color=8892949 [32m200 [0m6.470 ms - 233[0m
+[0mGET /colors/2 [32m200 [0m7.359 ms - 205[0m
+[0mGET /colors/1?commands [36m304 [0m9.621 ms - -[0m
+[0mGET /colors?color=2822924 [32m200 [0m9.298 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m7.124 ms - 2[0m
+[0mGET /colors/1?commands [33m404 [0m4.264 ms - 2[0m
+[0mGET /colors [32m200 [0m57.654 ms - 233[0m
+[0mGET /colors?color=8892949 [32m200 [0m14.550 ms - 233[0m
+[0mDELETE /colors/2 [32m200 [0m9.039 ms - 2[0m
+[0mGET /colors [32m200 [0m18.363 ms - 2[0m
+[0mGET /db [32m200 [0m17.970 ms - 18[0m
+[0mGET /colors?color=676736 [32m200 [0m7.350 ms - 2[0m
+[0mGET /colors?color=676736 [32m200 [0m4.127 ms - 2[0m
+[0mPOST /colors [32m201 [0m13.557 ms - 204[0m
+[0mGET /colors?color=676736 [32m200 [0m6.184 ms - 232[0m
+[0mGET /colors/1 [32m200 [0m5.460 ms - 204[0m
+[0mGET /db [32m200 [0m58.828 ms - 274[0m
+[0mGET /colors?color=676736 [32m200 [0m7.979 ms - 232[0m
+[0mGET /colors/1 [32m200 [0m10.117 ms - 204[0m
+[0mGET /colors?color=676736 [32m200 [0m13.161 ms - 232[0m
+[0mGET /colors/1 [32m200 [0m7.406 ms - 204[0m
+[0mGET /colors?color=676736 [32m200 [0m7.895 ms - 232[0m
+[0mGET /colors?color=676736 [32m200 [0m22.117 ms - 232[0m
+[0mGET /colors?color=676736 [32m200 [0m8.129 ms - 232[0m
+[0mDELETE /colors/1 [32m200 [0m7.371 ms - 2[0m
+[0mGET /db [32m200 [0m4.831 ms - 18[0m
+[0mGET /colors?color=4023346 [32m200 [0m4.558 ms - 2[0m
+[0mGET /colors?color=4023346 [32m200 [0m5.863 ms - 2[0m
+[0mPOST /colors [32m201 [0m11.812 ms - 205[0m
+[0mGET /colors?color=4023346 [32m200 [0m5.641 ms - 233[0m
+[0mGET /colors?color=11829252 [32m200 [0m10.944 ms - 2[0m
+[0mGET /colors?color=11829252 [32m200 [0m7.356 ms - 2[0m
+[0mPOST /colors [32m201 [0m11.493 ms - 206[0m
+[0mGET /colors?color=11829252 [32m200 [0m7.546 ms - 234[0m
+[0mGET /colors?color=16647065 [32m200 [0m9.500 ms - 2[0m
+[0mGET /colors?color=16647065 [32m200 [0m6.156 ms - 2[0m
+[0mPOST /colors [32m201 [0m11.188 ms - 206[0m
+[0mGET /colors?color=16647065 [32m200 [0m5.344 ms - 234[0m
+[0mGET /colors?color=9418540 [32m200 [0m7.584 ms - 2[0m
+[0mGET /colors?color=9418540 [32m200 [0m6.785 ms - 2[0m
+[0mPOST /colors [32m201 [0m8.173 ms - 204[0m
+[0mGET /colors?color=9418540 [32m200 [0m5.537 ms - 232[0m
+[0mGET /colors?color=9418540 [32m200 [0m5.336 ms - 232[0m
+[0mPATCH /colors/4 [32m200 [0m10.265 ms - 240[0m
+[0mGET /db [32m200 [0m5.485 ms - -[0m
+[0mGET /colors?color=15447957 [32m200 [0m4.961 ms - 2[0m
+[0mGET /colors?color=15447957 [32m200 [0m4.813 ms - 2[0m
+[0mPOST /colors [32m201 [0m13.702 ms - 206[0m
+[0mGET /colors?color=15447957 [32m200 [0m10.648 ms - 234[0m
+[0mGET /colors?color=15447957 [32m200 [0m6.106 ms - 234[0m
+[0mPATCH /colors/5 [32m200 [0m6.887 ms - 242[0m
+[0mGET /colors?color=4023346 [32m200 [0m9.367 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m9.216 ms - 2[0m
+[0mGET /colors?color=11829252 [32m200 [0m7.432 ms - 234[0m
+[0mDELETE /colors/2 [32m200 [0m9.340 ms - 2[0m
+[0mGET /colors?color=16647065 [32m200 [0m7.213 ms - 234[0m
+[0mDELETE /colors/3 [32m200 [0m6.729 ms - 2[0m
+[0mGET /db [32m200 [0m4.811 ms - 626[0m
+[0mGET /colors?color=9418540 [32m200 [0m12.335 ms - 274[0m
+[0mDELETE /colors/4 [32m200 [0m6.005 ms - 2[0m
+[0mGET /colors?color=15447957 [32m200 [0m11.736 ms - 276[0m
+[0mDELETE /colors/5 [32m200 [0m13.627 ms - 2[0m
+[0mGET /db [32m200 [0m5.984 ms - 18[0m
+[0mGET /colors?color=8662314 [32m200 [0m4.085 ms - 2[0m
+[0mGET /colors?color=14057228 [32m200 [0m10.965 ms - 2[0m
+[0mGET /colors?color=14057228 [32m200 [0m10.478 ms - 2[0m
+[0mPOST /colors [32m201 [0m22.206 ms - 206[0m
+[0mGET /colors?color=14057228 [32m200 [0m4.774 ms - 234[0m
+[0mGET /colors?color=14057228 [32m200 [0m4.630 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m8.638 ms - 242[0m
+[0mGET /db [32m200 [0m9.788 ms - 324[0m
+[0mGET /colors?color=12421504 [32m200 [0m16.182 ms - 2[0m
+[0mGET /colors?color=12421504 [32m200 [0m6.576 ms - 2[0m
+[0mPOST /colors [32m201 [0m20.791 ms - 206[0m
+[0mGET /colors?color=12421504 [32m200 [0m5.296 ms - 234[0m
+[0mGET /colors?color=12421504 [32m200 [0m4.702 ms - 234[0m
+[0mPATCH /colors/2 [32m200 [0m5.312 ms - 242[0m
+[0mGET /db [32m200 [0m3.618 ms - 628[0m
+[0mGET /colors?color=14057228 [32m200 [0m16.249 ms - 276[0m
+[0mDELETE /colors/1 [32m200 [0m9.528 ms - 2[0m
+[0mGET /colors?color=12421504 [32m200 [0m7.831 ms - 276[0m
+[0mDELETE /colors/2 [32m200 [0m4.997 ms - 2[0m
+[0mGET /db [32m200 [0m4.026 ms - 18[0m
+[0mGET /db [36m304 [0m4.878 ms - -[0m
+[0mGET /colors?color=7833659 [32m200 [0m3.550 ms - 2[0m
+[0mGET /colors?color=7833659 [32m200 [0m3.817 ms - 2[0m
+[0mPOST /colors [32m201 [0m14.371 ms - 205[0m
+[0mGET /colors?color=12490582 [32m200 [0m10.314 ms - 2[0m
+[0mGET /colors?color=12490582 [32m200 [0m7.126 ms - 2[0m
+[0mPOST /colors [32m201 [0m6.245 ms - 206[0m
+[0mGET /colors?color=12490582 [32m200 [0m4.835 ms - 234[0m
+[0mGET /colors?color=11026692 [32m200 [0m7.822 ms - 2[0m
+[0mGET /colors?color=11026692 [32m200 [0m6.283 ms - 2[0m
+[0mPOST /colors [32m201 [0m35.394 ms - 206[0m
+[0mGET /colors?color=11026692 [32m200 [0m6.612 ms - 234[0m
+[0mGET /colors?color=11026692 [32m200 [0m4.585 ms - 234[0m
+[0mPATCH /colors/3 [32m200 [0m6.771 ms - 296[0m
+[0mGET /colors?color=11026692 [32m200 [0m6.808 ms - 336[0m
+[0mGET /colors?color=11026692 [32m200 [0m9.341 ms - 336[0m
+[0mPATCH /colors/3 [32m200 [0m6.273 ms - 384[0m
+[0mGET /db [32m200 [0m4.949 ms - 1009[0m
+[0mGET /colors?color=7833659 [32m200 [0m4.670 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m5.163 ms - 2[0m
+[0mGET /colors?color=12490582 [32m200 [0m4.983 ms - 234[0m
+[0mDELETE /colors/2 [32m200 [0m5.091 ms - 2[0m
+[0mGET /colors?color=11026692 [32m200 [0m4.748 ms - 434[0m
+[0mDELETE /colors/3 [32m200 [0m4.573 ms - 2[0m
+[0mGET /db [32m200 [0m4.022 ms - 18[0m
+[0mGET /colors?color=14320432 [32m200 [0m3.446 ms - 2[0m
+[0mGET /colors?color=14320432 [32m200 [0m3.545 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.583 ms - 206[0m
+[0mGET /colors?color=14320432 [32m200 [0m7.012 ms - 234[0m
+[0mGET /colors?color=14320432 [32m200 [0m4.629 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.397 ms - 341[0m
+[0mGET /colors?color=14320432 [32m200 [0m5.018 ms - 385[0m
+[0mGET /colors?color=14320432 [32m200 [0m4.926 ms - 385[0m
+[0mPATCH /colors/1 [32m200 [0m9.018 ms - 478[0m
+[0mGET /db [32m200 [0m14.562 ms - 608[0m
+[0mGET /colors?color=14320432 [32m200 [0m13.530 ms - 536[0m
+[0mDELETE /colors/1 [32m200 [0m4.587 ms - 2[0m
+[0mGET /db [32m200 [0m4.107 ms - 18[0m
+[0mGET /colors?color=16329889 [32m200 [0m3.732 ms - 2[0m
+[0mGET /colors?color=16329889 [32m200 [0m3.617 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.373 ms - 206[0m
+[0mGET /colors?color=16329889 [32m200 [0m4.665 ms - 234[0m
+[0mGET /colors?color=16329889 [32m200 [0m4.502 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.681 ms - 354[0m
+[0mGET /colors?color=16329889 [32m200 [0m13.342 ms - 398[0m
+[0mGET /colors?color=16329889 [32m200 [0m4.715 ms - 398[0m
+[0mPATCH /colors/1 [32m200 [0m5.089 ms - 504[0m
+[0mGET /db [32m200 [0m3.507 ms - 634[0m
+[0mGET /colors?color=16329889 [32m200 [0m6.877 ms - 562[0m
+[0mDELETE /colors/1 [32m200 [0m8.484 ms - 2[0m
+[0mGET /db [32m200 [0m3.862 ms - 18[0m
+[0mGET /colors?color=7719920 [32m200 [0m3.734 ms - 2[0m
+[0mGET /colors?color=7719920 [32m200 [0m3.559 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.565 ms - 205[0m
+[0mGET /colors?color=7719920 [32m200 [0m4.911 ms - 233[0m
+[0mGET /colors?color=7719920 [32m200 [0m4.461 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m5.913 ms - 353[0m
+[0mGET /db [32m200 [0m4.651 ms - 455[0m
+[0mGET /colors?color=7719920 [32m200 [0m5.139 ms - 397[0m
+[0mDELETE /colors/1 [32m200 [0m4.924 ms - 2[0m
+[0mGET /db [32m200 [0m3.375 ms - 18[0m
+[0mGET /db [36m304 [0m4.374 ms - -[0m
+[0mGET /colors?color=14770314 [32m200 [0m3.503 ms - 2[0m
+[0mGET /colors?color=8273025 [32m200 [0m3.547 ms - 2[0m
+[0mGET /colors?color=8273025 [32m200 [0m3.509 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.583 ms - 205[0m
+[0mGET /colors?color=8273025 [32m200 [0m6.679 ms - 233[0m
+[0mGET /colors?color=8273025 [32m200 [0m4.760 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m5.908 ms - 353[0m
+[0mGET /colors?color=8273025 [32m200 [0m9.936 ms - 397[0m
+[0mGET /colors?color=8273025 [32m200 [0m4.965 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.978 ms - 503[0m
+[0mGET /db [32m200 [0m4.611 ms - 633[0m
+[0mGET /colors?color=8273025 [32m200 [0m6.745 ms - 561[0m
+[0mDELETE /colors/1 [32m200 [0m6.253 ms - 2[0m
+[0mGET /db [32m200 [0m16.577 ms - 18[0m
+[0mGET /colors?color=7115540 [32m200 [0m3.411 ms - 2[0m
+[0mGET /colors?color=7115540 [32m200 [0m3.540 ms - 2[0m
+[0mPOST /colors [32m201 [0m14.138 ms - 205[0m
+[0mGET /colors?color=7115540 [32m200 [0m4.587 ms - 233[0m
+[0mGET /colors?color=7115540 [32m200 [0m4.289 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m6.337 ms - 353[0m
+[0mGET /colors?color=7115540 [32m200 [0m15.219 ms - 397[0m
+[0mGET /colors?color=7115540 [32m200 [0m4.943 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m8.350 ms - 503[0m
+[0mGET /db [32m200 [0m16.485 ms - 633[0m
+[0mGET /colors?color=7115540 [32m200 [0m4.759 ms - 561[0m
+[0mGET /colors?color=7115540 [32m200 [0m4.751 ms - 561[0m
+[0mGET /colors?color=7115540 [32m200 [0m4.891 ms - 561[0m
+[0mGET /colors?color=7115540 [32m200 [0m4.822 ms - 561[0m
+[0mGET /colors?color=7115540 [32m200 [0m4.906 ms - 561[0m
+[0mPATCH /colors/1 [32m200 [0m4.738 ms - 205[0m
+[0mGET /db [32m200 [0m4.279 ms - 275[0m
+[0mGET /colors?color=7115540 [32m200 [0m5.598 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m6.152 ms - 2[0m
+[0mGET /db [32m200 [0m3.232 ms - 18[0m
+[0mGET /colors?color=9227693 [32m200 [0m3.692 ms - 2[0m
+[0mGET /colors?color=9227693 [32m200 [0m3.698 ms - 2[0m
+[0mPOST /colors [32m201 [0m6.732 ms - 205[0m
+[0mGET /colors?color=9227693 [32m200 [0m28.314 ms - 233[0m
+[0mGET /colors?color=9227693 [32m200 [0m6.945 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m5.706 ms - 353[0m
+[0mGET /colors?color=9227693 [32m200 [0m4.938 ms - 397[0m
+[0mGET /colors?color=9227693 [32m200 [0m5.016 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m12.202 ms - 502[0m
+[0mGET /db [32m200 [0m16.858 ms - 632[0m
+[0mGET /colors?color=9227693 [32m200 [0m6.834 ms - 560[0m
+[0mGET /db [36m304 [0m4.508 ms - -[0m
+[0mGET /colors?color=9227693 [32m200 [0m6.622 ms - 560[0m
+[0mGET /colors?color=9227693 [32m200 [0m4.833 ms - 560[0m
+[0mGET /colors?color=9227693 [32m200 [0m4.885 ms - 560[0m
+[0mGET /colors?color=9227693 [32m200 [0m6.211 ms - 560[0m
+[0mGET /colors?color=9227693 [32m200 [0m4.759 ms - 560[0m
+[0mGET /colors?color=9227693 [32m200 [0m4.830 ms - 560[0m
+[0mGET /colors?color=9227693 [32m200 [0m6.591 ms - 560[0m
+[0mPATCH /colors/1 [32m200 [0m4.880 ms - 353[0m
+[0mGET /db [32m200 [0m4.135 ms - 455[0m
+[0mGET /colors?color=9227693 [32m200 [0m4.633 ms - 397[0m
+[0mGET /colors?color=9227693 [32m200 [0m4.886 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.579 ms - 205[0m
+[0mGET /colors?color=9227693 [32m200 [0m4.621 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m8.521 ms - 2[0m
+[0mGET /db [32m200 [0m3.284 ms - 18[0m
+[0mGET /colors?color=6626545 [32m200 [0m3.687 ms - 2[0m
+[0mGET /colors?color=6626545 [32m200 [0m15.290 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.531 ms - 205[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.697 ms - 233[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.306 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m5.628 ms - 353[0m
+[0mGET /colors?color=6626545 [32m200 [0m5.039 ms - 397[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.682 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.735 ms - 503[0m
+[0mGET /colors?color=6626545 [32m200 [0m5.759 ms - 561[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.863 ms - 561[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.835 ms - 561[0m
+[0mPATCH /colors/1 [32m200 [0m6.611 ms - 353[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.669 ms - 397[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.686 ms - 397[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.634 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m4.553 ms - 205[0m
+[0mGET /colors?color=6626545 [32m200 [0m4.355 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m38.962 ms - 2[0m
+[0mGET /colors?color=8568176 [32m200 [0m3.298 ms - 2[0m
+[0mGET /colors?color=8568176 [32m200 [0m3.769 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.288 ms - 205[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.554 ms - 233[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.240 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m5.485 ms - 353[0m
+[0mGET /colors?color=8568176 [32m200 [0m5.016 ms - 397[0m
+[0mGET /colors?color=8568176 [32m200 [0m8.247 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m10.384 ms - 503[0m
+[0mGET /colors?color=8568176 [32m200 [0m5.044 ms - 561[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.873 ms - 561[0m
+[0mGET /colors?color=8568176 [32m200 [0m5.014 ms - 561[0m
+[0mPATCH /colors/1 [32m200 [0m5.766 ms - 353[0m
+[0mGET /colors?color=8568176 [32m200 [0m5.008 ms - 397[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.674 ms - 397[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.921 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.459 ms - 205[0m
+[0mGET /db [32m200 [0m4.423 ms - 275[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.348 ms - 233[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.368 ms - 233[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.278 ms - 233[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.492 ms - 233[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.639 ms - 233[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.276 ms - 233[0m
+[0mGET /db [36m304 [0m4.052 ms - -[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.358 ms - 233[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.662 ms - 233[0m
+[0mGET /colors?color=8568176 [32m200 [0m4.271 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m4.593 ms - 2[0m
+[0mGET /db [32m200 [0m4.203 ms - 18[0m
+[0mGET /colors?color=3836072 [32m200 [0m3.453 ms - 2[0m
+[0mGET /colors?color=3836072 [32m200 [0m3.448 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.036 ms - 202[0m
+[0mGET /db [32m200 [0m4.387 ms - 272[0m
+[0mGET /colors?color=3836072 [32m200 [0m4.683 ms - 230[0m
+[0mGET /colors?color=3836072 [32m200 [0m4.490 ms - 230[0m
+[0mDELETE /colors/1 [32m200 [0m4.702 ms - 2[0m
+[0mGET /db [32m200 [0m3.817 ms - 18[0m
+[0mGET /colors?color=6932767 [32m200 [0m3.702 ms - 2[0m
+[0mGET /colors?color=6932767 [32m200 [0m13.002 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.415 ms - 205[0m
+[0mGET /db [32m200 [0m4.362 ms - 275[0m
+[0mGET /colors?color=6932767 [32m200 [0m4.295 ms - 233[0m
+[0mGET /colors?color=6932767 [32m200 [0m4.446 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m4.723 ms - 2[0m
+[0mGET /colors?color=6450028 [32m200 [0m12.327 ms - 2[0m
+[0mGET /colors?color=6450028 [32m200 [0m3.352 ms - 2[0m
+[0mPOST /colors [32m201 [0m14.232 ms - 204[0m
+[0mGET /colors?color=6450028 [32m200 [0m4.885 ms - 232[0m
+[0mGET /colors?color=6450028 [32m200 [0m12.319 ms - 232[0m
+[0mPATCH /colors/1 [32m200 [0m5.673 ms - 352[0m
+[0mGET /colors?color=6450028 [32m200 [0m4.739 ms - 396[0m
+[0mGET /colors?color=6450028 [32m200 [0m4.841 ms - 396[0m
+[0mPATCH /colors/1 [32m200 [0m5.924 ms - 502[0m
+[0mGET /colors?color=6450028 [32m200 [0m5.256 ms - 560[0m
+[0mGET /colors?color=6450028 [32m200 [0m4.892 ms - 560[0m
+[0mGET /colors?color=6450028 [32m200 [0m4.734 ms - 560[0m
+[0mPATCH /colors/1 [32m200 [0m5.675 ms - 352[0m
+[0mGET /colors?color=6450028 [32m200 [0m4.939 ms - 396[0m
+[0mGET /colors?color=6450028 [32m200 [0m4.661 ms - 396[0m
+[0mGET /colors?color=6450028 [32m200 [0m8.960 ms - 396[0m
+[0mPATCH /colors/1 [32m200 [0m5.547 ms - 204[0m
+[0mGET /colors?color=6450028 [32m200 [0m7.111 ms - 232[0m
+[0mGET /colors?color=6450028 [32m200 [0m11.851 ms - 232[0m
+[0mGET /colors?color=6450028 [32m200 [0m4.399 ms - 232[0m
+[0mDELETE /colors/1 [32m200 [0m3.849 ms - 2[0m
+[0mGET /colors?color=6450028 [32m200 [0m3.247 ms - 2[0m
+[0mGET /colors?color=12258836 [32m200 [0m3.272 ms - 2[0m
+[0mGET /colors?color=12258836 [32m200 [0m12.409 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.147 ms - 206[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.668 ms - 234[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.103 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.818 ms - 354[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.569 ms - 398[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.526 ms - 398[0m
+[0mPATCH /colors/1 [32m200 [0m5.520 ms - 504[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.928 ms - 562[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.702 ms - 562[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.782 ms - 562[0m
+[0mPATCH /colors/1 [32m200 [0m4.676 ms - 354[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.583 ms - 398[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.615 ms - 398[0m
+[0mGET /colors?color=12258836 [32m200 [0m6.428 ms - 398[0m
+[0mPATCH /colors/1 [32m200 [0m70.480 ms - 206[0m
+[0mGET /colors?color=12258836 [32m200 [0m4.482 ms - 234[0m
+[0mDELETE /colors/1 [32m200 [0m4.450 ms - 2[0m
+[0mGET /db [32m200 [0m3.860 ms - 18[0m
+[0mGET /colors?color=3300182 [32m200 [0m3.540 ms - 2[0m
+[0mGET /colors?color=3300182 [32m200 [0m3.550 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.199 ms - 205[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.747 ms - 233[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.426 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m5.625 ms - 353[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.795 ms - 397[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.591 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.698 ms - 503[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.889 ms - 561[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.711 ms - 561[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.961 ms - 561[0m
+[0mPATCH /colors/1 [32m200 [0m5.528 ms - 353[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.628 ms - 397[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.598 ms - 397[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.665 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.284 ms - 205[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.548 ms - 233[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.274 ms - 233[0m
+[0mGET /colors?color=3300182 [32m200 [0m4.259 ms - 233[0m
+[0mGET /colors?color=3300182 [32m200 [0m5.599 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m5.887 ms - 2[0m
+[0mGET /colors?color=3300182 [32m200 [0m3.361 ms - 2[0m
+[0mGET /colors?color=16145751 [32m200 [0m3.421 ms - 2[0m
+[0mGET /colors?color=16145751 [32m200 [0m3.394 ms - 2[0m
+[0mPOST /colors [32m201 [0m14.283 ms - 206[0m
+[0mGET /colors?color=16145751 [32m200 [0m6.234 ms - 234[0m
+[0mGET /colors?color=16145751 [32m200 [0m4.158 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.429 ms - 354[0m
+[0mGET /colors?color=16145751 [32m200 [0m5.566 ms - 398[0m
+[0mGET /colors?color=16145751 [32m200 [0m4.535 ms - 398[0m
+[0mPATCH /colors/1 [32m200 [0m4.716 ms - 503[0m
+[0mGET /colors?color=16145751 [32m200 [0m4.950 ms - 561[0m
+[0mGET /colors?color=16145751 [32m200 [0m4.499 ms - 561[0m
+[0mGET /colors?color=16145751 [32m200 [0m4.531 ms - 561[0m
+[0mPATCH /colors/1 [32m200 [0m4.649 ms - 354[0m
+[0mGET /colors?color=16145751 [32m200 [0m4.529 ms - 398[0m
+[0mGET /colors?color=16145751 [32m200 [0m4.326 ms - 398[0m
+[0mGET /colors?color=16145751 [32m200 [0m9.000 ms - 398[0m
+[0mPATCH /colors/1 [32m200 [0m4.439 ms - 206[0m
+[0mGET /colors?color=16145751 [32m200 [0m4.178 ms - 234[0m
+[0mDELETE /colors/1 [32m200 [0m8.097 ms - 2[0m
+[0mGET /db [36m304 [0m3.748 ms - -[0m
+[0mGET /colors?color=9701757 [32m200 [0m11.997 ms - 2[0m
+[0mGET /colors?color=9701757 [32m200 [0m3.090 ms - 2[0m
+[0mPOST /colors [32m201 [0m4.715 ms - 205[0m
+[0mGET /colors?color=9701757 [32m200 [0m13.641 ms - 233[0m
+[0mGET /colors?color=9701757 [32m200 [0m6.597 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m4.690 ms - 353[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.762 ms - 397[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.374 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m4.818 ms - 503[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.706 ms - 561[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.622 ms - 561[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.822 ms - 561[0m
+[0mPATCH /colors/1 [32m200 [0m4.593 ms - 353[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.818 ms - 397[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.540 ms - 397[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.417 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m4.615 ms - 205[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.065 ms - 233[0m
+[0mGET /colors?color=9701757 [32m200 [0m4.070 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m4.505 ms - 2[0m
+[0mGET /colors?color=8357420 [32m200 [0m3.330 ms - 2[0m
+[0mGET /colors?color=8357420 [32m200 [0m3.262 ms - 2[0m
+[0mPOST /colors [32m201 [0m4.724 ms - 204[0m
+[0mGET /colors?color=8357420 [32m200 [0m4.374 ms - 232[0m
+[0mGET /colors?color=8357420 [32m200 [0m4.065 ms - 232[0m
+[0mPATCH /colors/1 [32m200 [0m14.543 ms - 352[0m
+[0mGET /colors?color=8357420 [32m200 [0m4.839 ms - 396[0m
+[0mGET /colors?color=8357420 [32m200 [0m4.413 ms - 396[0m
+[0mGET /colors?color=8357420 [32m200 [0m4.457 ms - 396[0m
+[0mPATCH /colors/1 [32m200 [0m4.508 ms - 204[0m
+[0mGET /db [32m200 [0m4.008 ms - 274[0m
+[0mGET /colors?color=8357420 [32m200 [0m4.371 ms - 232[0m
+[0mGET /colors?color=8357420 [32m200 [0m4.037 ms - 232[0m
+[0mDELETE /colors/1 [32m200 [0m6.347 ms - 2[0m
+[0mGET /colors?color=8357420 [32m200 [0m3.432 ms - 2[0m
+[0mGET /colors?color=1344998 [32m200 [0m3.116 ms - 2[0m
+[0mGET /colors?color=1344998 [32m200 [0m3.318 ms - 2[0m
+[0mPOST /colors [32m201 [0m4.705 ms - 205[0m
+[0mGET /colors?color=1344998 [32m200 [0m4.283 ms - 233[0m
+[0mGET /colors?color=1344998 [32m200 [0m4.117 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m4.592 ms - 353[0m
+[0mGET /colors?color=1344998 [32m200 [0m4.678 ms - 397[0m
+[0mGET /colors?color=1344998 [32m200 [0m4.610 ms - 397[0m
+[0mGET /colors?color=1344998 [32m200 [0m4.569 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.055 ms - 205[0m
+[0mGET /colors?color=1344998 [32m200 [0m4.364 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m3.793 ms - 205[0m
+[0mGET /colors?color=1344998 [32m200 [0m4.346 ms - 233[0m
+[0mGET /colors?color=1344998 [32m200 [0m13.835 ms - 233[0m
+[0mGET /colors?color=1344998 [32m200 [0m4.242 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m4.421 ms - 2[0m
+[0mGET /colors?color=5411572 [32m200 [0m3.280 ms - 2[0m
+[0mGET /colors?color=5411572 [32m200 [0m3.276 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.299 ms - 205[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.539 ms - 233[0m
+[0mGET /colors?color=5411572 [32m200 [0m3.942 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m5.185 ms - 353[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.589 ms - 397[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.371 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.486 ms - 503[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.898 ms - 561[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.532 ms - 561[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.679 ms - 561[0m
+[0mPATCH /colors/1 [32m200 [0m4.778 ms - 353[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.640 ms - 397[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.612 ms - 397[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.351 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m7.696 ms - 205[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.369 ms - 233[0m
+[0mGET /db [32m200 [0m3.603 ms - 275[0m
+[0mGET /db [36m304 [0m3.896 ms - -[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.130 ms - 233[0m
+[0mGET /colors?color=5411572 [32m200 [0m4.330 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m3.843 ms - 2[0m
+[0mGET /colors?color=9532753 [32m200 [0m3.256 ms - 2[0m
+[0mGET /colors?color=9532753 [32m200 [0m3.341 ms - 2[0m
+[0mPOST /colors [32m201 [0m7.617 ms - 205[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.475 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.212 ms - 233[0m
+[0mPATCH /colors/1 [32m200 [0m4.591 ms - 353[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.749 ms - 397[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.252 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m5.677 ms - 503[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.988 ms - 561[0m
+[0mGET /colors?color=9532753 [32m200 [0m14.790 ms - 561[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.449 ms - 561[0m
+[0mPATCH /colors/1 [32m200 [0m11.078 ms - 353[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.574 ms - 397[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.341 ms - 397[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.769 ms - 397[0m
+[0mPATCH /colors/1 [32m200 [0m4.543 ms - 205[0m
+[0mGET /colors?color=9532753 [32m200 [0m13.042 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.081 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m3.925 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.216 ms - 233[0m
+[0mGET /db [32m200 [0m3.554 ms - 275[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.283 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.304 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.025 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.149 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.344 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.340 ms - 233[0m
+[0mGET /colors?color=9532753 [32m200 [0m4.045 ms - 233[0m
+[0mDELETE /colors/1 [32m200 [0m3.662 ms - 2[0m
+[0mGET /colors?color=9532753 [32m200 [0m3.006 ms - 2[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.166 ms - 2[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.215 ms - 2[0m
+[0mPOST /colors [32m201 [0m5.090 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.476 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.954 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.526 ms - 354[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.518 ms - 398[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.415 ms - 398[0m
+[0mPATCH /colors/1 [32m200 [0m5.582 ms - 504[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.508 ms - 562[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.708 ms - 562[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.748 ms - 562[0m
+[0mPATCH /colors/1 [32m200 [0m5.295 ms - 354[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.529 ms - 398[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.585 ms - 398[0m
+[0mGET /colors?color=13525482 [32m200 [0m25.307 ms - 398[0m
+[0mPATCH /colors/1 [32m200 [0m5.170 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.198 ms - 234[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.783 ms - 2[0m
+[0mGET /colors?color=5127574 [32m200 [0m3.755 ms - 2[0m
+[0mPOST /colors [32m201 [0m4.760 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.298 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.248 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.517 ms - 353[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.847 ms - 397[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.567 ms - 397[0m
+[0mPATCH /colors/2 [32m200 [0m7.553 ms - 503[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.900 ms - 561[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.805 ms - 561[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.591 ms - 561[0m
+[0mPATCH /colors/2 [32m200 [0m14.753 ms - 353[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.945 ms - 397[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.499 ms - 397[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.684 ms - 397[0m
+[0mPATCH /colors/2 [32m200 [0m5.499 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.216 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.126 ms - 233[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.247 ms - 234[0m
+[0mGET /db [32m200 [0m3.633 ms - 531[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.534 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.378 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.130 ms - 234[0m
+[0mGET /db [36m304 [0m2.914 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.282 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.172 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.135 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.920 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.613 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.501 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.422 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.277 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.075 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.188 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.612 ms - 359[0m
+[0mGET /db [32m200 [0m4.048 ms - 716[0m
+[0mGET /db [36m304 [0m3.101 ms - -[0m
+[0mGET /db [36m304 [0m20.845 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.563 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.597 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.416 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.063 ms - 206[0m
+[0mGET /db [32m200 [0m4.132 ms - 531[0m
+[0mGET /db [36m304 [0m3.950 ms - -[0m
+[0mGET /db [36m304 [0m4.339 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.171 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.012 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.124 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.304 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.792 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.587 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.527 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.464 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.291 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.129 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.649 ms - 358[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.518 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.380 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.627 ms - 402[0m
+[0mPATCH /colors/1 [32m200 [0m5.234 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.426 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.259 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.636 ms - 359[0m
+[0mGET /db [32m200 [0m2.968 ms - 716[0m
+[0mGET /db [36m304 [0m3.246 ms - -[0m
+[0mGET /db [36m304 [0m2.938 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.640 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.531 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.408 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.655 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.137 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.018 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m16.366 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.989 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.401 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.232 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m6.965 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.565 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.128 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.271 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.677 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.262 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.413 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.460 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.234 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.196 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.578 ms - 359[0m
+[0mGET /db [32m200 [0m3.311 ms - 716[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.598 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.805 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.620 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.576 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.056 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.395 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.660 ms - 358[0m
+[0mGET /db [32m200 [0m3.007 ms - 715[0m
+[0mGET /db [36m304 [0m3.054 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.437 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.556 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.082 ms - 402[0m
+[0mPATCH /colors/1 [32m200 [0m12.827 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.039 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.843 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m9.102 ms - 359[0m
+[0mGET /db [32m200 [0m3.766 ms - 716[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.678 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.520 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.354 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.510 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.366 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.126 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.795 ms - 359[0m
+[0mGET /db [32m200 [0m3.829 ms - 716[0m
+[0mGET /db [36m304 [0m3.442 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.652 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.426 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.347 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m26.943 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.218 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.100 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.713 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.449 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.348 ms - 206[0m
+[0mGET /db [32m200 [0m3.642 ms - 531[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.037 ms - 234[0m
+[0mGET /db [36m304 [0m3.831 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.900 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.890 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.214 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.434 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m19.206 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.354 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.344 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.187 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.952 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.477 ms - 359[0m
+[0mGET /db [32m200 [0m3.112 ms - 716[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.252 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.264 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.461 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.295 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.046 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.543 ms - 358[0m
+[0mGET /db [32m200 [0m3.787 ms - 715[0m
+[0mGET /db [36m304 [0m3.737 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.531 ms - 402[0m
+[0mPATCH /colors/1 [32m200 [0m4.267 ms - 206[0m
+[0mGET /db [32m200 [0m2.850 ms - 531[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.012 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.054 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.166 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.719 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.491 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.253 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.543 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.034 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.257 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.003 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m6.904 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.634 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.581 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.525 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.242 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.277 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.132 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.448 ms - 358[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.714 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.364 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.533 ms - 402[0m
+[0mPATCH /colors/1 [32m200 [0m4.311 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.278 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.017 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.546 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.595 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.041 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.400 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.343 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.223 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.997 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.565 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.449 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.361 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.691 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.085 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.193 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.935 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.276 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.544 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.604 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.655 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.608 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.971 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m19.673 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.339 ms - 359[0m
+[0mGET /db [32m200 [0m3.343 ms - 716[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.688 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.623 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.205 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.112 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.276 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.309 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.943 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.163 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.260 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.440 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.333 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.969 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.836 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.793 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.147 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.171 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.073 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.128 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.812 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.286 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.656 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.422 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.072 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.516 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.666 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.033 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.205 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.589 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.239 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.273 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.194 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.231 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.056 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.432 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.389 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.293 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.498 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.962 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.265 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.811 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.551 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.620 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.295 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.084 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.337 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.969 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.085 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.347 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.636 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.566 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.357 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.514 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.103 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.952 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.154 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.601 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.271 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m12.547 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.242 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.409 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.228 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.805 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.326 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.193 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.581 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m14.652 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.449 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.238 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m6.659 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.620 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.451 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.335 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.421 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.140 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.957 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.238 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.581 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.139 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.299 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.193 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.144 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.939 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.480 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.360 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.339 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.483 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m14.137 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.121 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.809 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.229 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.478 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.440 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.568 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.457 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.177 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.015 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.190 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.561 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.271 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.327 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.186 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.271 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.929 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.117 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.434 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.127 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.422 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.146 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.748 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.986 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.449 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.555 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.463 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.459 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.835 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.154 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.851 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.236 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.449 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.282 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.291 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.208 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.080 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.097 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.465 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.512 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.411 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.473 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.155 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.994 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.766 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.105 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.421 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.315 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.479 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.197 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.341 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.924 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.412 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.306 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.450 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.470 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.983 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.116 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.784 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.178 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.436 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.433 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.452 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.421 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.165 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.993 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.400 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.436 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.212 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.142 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.977 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.110 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.958 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.119 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.437 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.126 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.343 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.975 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.328 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.188 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.636 ms - 358[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.563 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.352 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.275 ms - 402[0m
+[0mPATCH /colors/1 [32m200 [0m4.794 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.081 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.813 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.885 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.332 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.518 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.375 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.238 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.987 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.133 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.908 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.064 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.637 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.356 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.367 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.966 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.131 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.013 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.364 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.360 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.392 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.461 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.827 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.348 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.732 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m15.250 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.536 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.474 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.395 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.289 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.945 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.008 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.143 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.456 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.388 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.349 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.194 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.097 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.923 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.017 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.569 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.221 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.367 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.182 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.098 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.930 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m13.842 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.361 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.422 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.262 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.786 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.170 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.877 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.330 ms - 358[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.568 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.446 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.465 ms - 402[0m
+[0mPATCH /colors/1 [32m200 [0m4.320 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.985 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.901 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.268 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.604 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.452 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.402 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m8.057 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.085 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.872 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.232 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.494 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.819 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.234 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.991 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.275 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.068 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.555 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.382 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.306 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.218 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.795 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.278 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.930 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.430 ms - 359[0m
+[0mGET /db [32m200 [0m3.011 ms - 716[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.263 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.278 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.110 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.129 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.227 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.895 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m18.247 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.544 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.146 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.252 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.081 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.110 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.097 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m4.614 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.408 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.374 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.241 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.780 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.254 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.967 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.333 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.654 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.412 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.464 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.256 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.862 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.967 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.199 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.469 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.474 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.305 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.104 ms - 206[0m
+[0mGET /db [32m200 [0m3.112 ms - 531[0m
+[0mGET /db [36m304 [0m3.842 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.999 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.775 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.220 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.402 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.848 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.223 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m4.175 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.929 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m3.523 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.208 ms - 234[0m
+[0mGET /db [36m304 [0m4.265 ms - -[0m
+[0mGET /db [36m304 [0m3.048 ms - -[0m
+[0mGET /db [36m304 [0m3.567 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m3.947 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.607 ms - 234[0m
+[0mGET /db [36m304 [0m3.746 ms - -[0m
+[0mGET /db [36m304 [0m2.871 ms - -[0m
+[0mGET /db [36m304 [0m3.824 ms - -[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.193 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m3.908 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m3.774 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.015 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.556 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.542 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.466 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.296 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m5.130 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.018 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m3.946 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.041 ms - 358[0m
+[0mGET / [32m200 [0m11.886 ms - 1969[0m
+[0mGET / [32m200 [0m4.016 ms - 1969[0m
+[0mGET / [32m200 [0m3.883 ms - 1969[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.498 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.961 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m16.305 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.197 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.069 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m6.029 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.154 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m3.955 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.116 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.002 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.074 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.545 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.120 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m5.349 ms - 509[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.662 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.432 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.586 ms - 567[0m
+[0mPATCH /colors/2 [32m200 [0m4.578 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.770 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.245 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m5.397 ms - 509[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.634 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m15.321 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.414 ms - 567[0m
+[0mPATCH /colors/2 [32m200 [0m5.304 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.576 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.457 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m5.402 ms - 509[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.646 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.359 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.880 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.495 ms - 567[0m
+[0mPATCH /colors/2 [32m200 [0m5.855 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.880 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.498 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m5.452 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.357 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.099 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.195 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.613 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.142 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.472 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m5.104 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.736 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.172 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m4.714 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.589 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.583 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m11.098 ms - 509[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.102 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.647 ms - 567[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.831 ms - 567[0m
+[0mPATCH /colors/2 [32m200 [0m5.643 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m6.151 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.001 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m6.999 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m5.665 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.498 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.465 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m6.820 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.797 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.239 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m6.488 ms - 508[0m
+[0mGET /db [32m200 [0m14.640 ms - 894[0m
+[0mGET /db [36m304 [0m4.234 ms - -[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.373 ms - 566[0m
+[0mPATCH /colors/2 [32m200 [0m29.444 ms - 205[0m
+[0mGET /db [32m200 [0m5.631 ms - 531[0m
+[0mGET /db [36m304 [0m3.500 ms - -[0m
+[0mGET /db [36m304 [0m6.739 ms - -[0m
+[0mGET /db [36m304 [0m54.994 ms - -[0m
+[0mGET / [32m200 [0m4.363 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m8.813 ms - 152[0m
+[0mGET /images/json.png [32m200 [0m7.064 ms - 278[0m
+[0mGET /db [32m200 [0m3.505 ms - 531[0m
+[0mGET /db [32m200 [0m11.453 ms - 531[0m
+[0mGET /db [36m304 [0m11.600 ms - -[0m
+[0mGET /db [36m304 [0m5.264 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m17.815 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.393 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.074 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m12.744 ms - 358[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.851 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.110 ms - 402[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.247 ms - 402[0m
+[0mPATCH /colors/1 [32m200 [0m11.571 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.689 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.523 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m11.364 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.069 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.002 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.394 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m9.902 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.702 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.483 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.234 ms - 359[0m
+[0mGET /db [32m200 [0m4.549 ms - 716[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.015 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.183 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.466 ms - 509[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.472 ms - 567[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.212 ms - 567[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.677 ms - 567[0m
+[0mPATCH /colors/1 [32m200 [0m6.207 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.954 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.515 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m6.409 ms - 510[0m
+[0mGET /db [32m200 [0m4.204 ms - 895[0m
+[0mGET /colors?color=13525482 [32m200 [0m17.924 ms - 568[0m
+[0mPATCH /colors/1 [32m200 [0m5.220 ms - 206[0m
+[0mGET /db [32m200 [0m3.293 ms - 531[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.542 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.528 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.325 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.889 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.190 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.360 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.017 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.444 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.951 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.164 ms - 359[0m
+[0mGET /db [32m200 [0m3.284 ms - 716[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.771 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.864 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.251 ms - 510[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.849 ms - 568[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.739 ms - 568[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.231 ms - 568[0m
+[0mPATCH /colors/1 [32m200 [0m6.735 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.673 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.265 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.127 ms - 510[0m
+[0mGET /db [32m200 [0m4.071 ms - 895[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.800 ms - 568[0m
+[0mPATCH /colors/1 [32m200 [0m13.334 ms - 206[0m
+[0mGET /db [32m200 [0m4.102 ms - 531[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.325 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.462 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m6.087 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.846 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.653 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.911 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.700 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.128 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.352 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m6.150 ms - 359[0m
+[0mGET /db [32m200 [0m4.081 ms - 716[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.932 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.920 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m6.019 ms - 510[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.648 ms - 568[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.518 ms - 568[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.074 ms - 568[0m
+[0mPATCH /colors/1 [32m200 [0m6.310 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.999 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.676 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.906 ms - 510[0m
+[0mGET /db [32m200 [0m5.009 ms - 895[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.290 ms - 568[0m
+[0mPATCH /colors/1 [32m200 [0m5.690 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.317 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.320 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m6.027 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.741 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.715 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.704 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m5.500 ms - 206[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.487 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.597 ms - 234[0m
+[0mPATCH /colors/1 [32m200 [0m5.867 ms - 359[0m
+[0mGET /db [32m200 [0m3.181 ms - 716[0m
+[0mGET /db [36m304 [0m3.907 ms - -[0m
+[0mGET /db [36m304 [0m8.533 ms - -[0m
+[0mGET /db [36m304 [0m12.022 ms - -[0m
+[0mGET /db [36m304 [0m3.355 ms - -[0m
+[0mGET /db [36m304 [0m4.332 ms - -[0m
+[0mGET /db [36m304 [0m3.466 ms - -[0m
+[0mGET /db [36m304 [0m3.404 ms - -[0m
+[0mGET /db [36m304 [0m3.276 ms - -[0m
+[0mGET /db [36m304 [0m3.463 ms - -[0m
+[0mGET /db [36m304 [0m4.395 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.173 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.716 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m6.044 ms - 510[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.305 ms - 568[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.618 ms - 568[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.843 ms - 568[0m
+[0mPATCH /colors/1 [32m200 [0m5.886 ms - 359[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.605 ms - 403[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.668 ms - 403[0m
+[0mPATCH /colors/1 [32m200 [0m14.454 ms - 510[0m
+[0mGET /db [32m200 [0m3.424 ms - 895[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.675 ms - 568[0m
+[0mPATCH /colors/1 [32m200 [0m5.623 ms - 206[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.352 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.643 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.502 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.382 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m8.031 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.757 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.528 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.603 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m8.462 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.464 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.297 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.785 ms - 358[0m
+[0mGET /db [32m200 [0m21.227 ms - 716[0m
+[0mGET /db [36m304 [0m17.895 ms - -[0m
+[0mGET /colors?color=5127574 [32m200 [0m5.076 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m13.457 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m4.991 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.750 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.066 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.507 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.949 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m11.779 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.504 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m4.706 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.492 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m13.794 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m4.900 ms - 358[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.618 ms - 402[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.329 ms - 402[0m
+[0mPATCH /colors/2 [32m200 [0m4.545 ms - 205[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.429 ms - 233[0m
+[0mGET /colors?color=5127574 [32m200 [0m4.217 ms - 233[0m
+[0mPATCH /colors/2 [32m200 [0m5.811 ms - 358[0m
+[0mGET /db [32m200 [0m3.116 ms - 716[0m
+[0mGET /db [36m304 [0m3.190 ms - -[0m
+[0mGET /db [36m304 [0m4.214 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.387 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.429 ms - 234[0m
+[0mGET /db [32m200 [0m3.314 ms - 716[0m
+[0mGET /db [32m200 [0m3.289 ms - 716[0m
+[0mGET /db [32m200 [0m3.277 ms - 716[0m
+[0mGET /db [32m200 [0m3.165 ms - 716[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/misc
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [32m200 [0m87.654 ms - 730[0m
+[0mGET /db [32m200 [0m10.334 ms - 730[0m
+[0mGET / [32m200 [0m11.717 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m9.067 ms - 152[0m
+[0mGET /images/json.png [32m200 [0m7.373 ms - 278[0m
+[0mGET /db [32m200 [0m6.359 ms - 730[0m
+[0mGET /db [36m304 [0m10.793 ms - -[0m
+[0mGET /db [32m200 [0m8.594 ms - 730[0m
+[0mGET /db [32m200 [0m4.725 ms - 730[0m
+[0mGET /db [36m304 [0m8.519 ms - -[0m
+[0mGET /db [32m200 [0m8.307 ms - 730[0m
+[0mGET /db [36m304 [0m5.463 ms - -[0m
+[0mGET /db [32m200 [0m5.146 ms - 730[0m
+[0mGET /db [36m304 [0m3.928 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m44.555 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.034 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.016 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.758 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.226 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.686 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.488 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.109 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.833 ms - 234[0m
+[0mGET /db [32m200 [0m11.205 ms - 730[0m
+[0mGET / [0m- [0m- ms - -[0m
+[0mGET /db [32m200 [0m5.895 ms - 730[0m

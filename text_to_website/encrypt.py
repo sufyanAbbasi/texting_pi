@@ -1,0 +1,7 @@
+from passlib.hash import bcrypt
+
+def generate_hash(password):
+	return bcrypt.encrypt(password, rounds=12)
+
+def verify_password(password, hash):
+	return bcrypt.verify(password, hash)

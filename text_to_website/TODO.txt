@@ -1,0 +1,13 @@
+ToDo:
+- Create a encryption/hashing algorithm for converting phone numbers to colors
+- Connect Twilio to Raspberry Pi
+- Write command suite and algorithm for responding to texts
+- Write a background script that queries for unanswered commands
+- Design Website
+
+
+Finished:
+10/28/16 5:32 AM
+- create new users in the server
+- way to update certain fields in the server for a particular color
+

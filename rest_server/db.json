@@ -1,0 +1,37 @@
+{
+  "colors": [
+    {
+      "has_responses": 0,
+      "commands": [],
+      "authenticated": 0,
+      "responses": [],
+      "color": 13525482,
+      "has_commands": 0,
+      "texts": [],
+      "has_texts": 0,
+      "date_created": 1478493479.299569,
+      "id": 1
+    },
+    {
+      "has_responses": 0,
+      "commands": [
+        {
+          "date_sent": 1478547301.283482,
+          "command_state": 1,
+          "in_progress": 1,
+          "command": "SCAVENGER",
+          "finished": 0
+        }
+      ],
+      "authenticated": 0,
+      "responses": [],
+      "color": 5127574,
+      "has_commands": 0,
+      "texts": [],
+      "has_texts": 0,
+      "date_created": 1478493599.226154,
+      "id": 2
+    }
+  ],
+  "misc":[]
+}
