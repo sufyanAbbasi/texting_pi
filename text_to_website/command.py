@@ -1,4 +1,5 @@
 import messages, colortoserver, hashtocolor
+from datetime import datetime
 
 def error(message, data):
 	messages.send_message(message, data['from'])
@@ -25,7 +26,10 @@ def check_command(color, check_val):
 	return command
 
 def get_user_command(data):
-	return data['body'].lower().split()[0] if data['body'].lower().split()[0] in user_commands else False
+	return data['body'].lower().strip().split()[0] if data['body'].lower().strip().split()[0] in user_commands else False
+
+def get_user_command_rest(data):
+	return data['body'].lower().strip().split()[1::]
 
 def process_next_command(color, data):
 	commands = colortoserver.get_color(color)['commands']
@@ -91,15 +95,15 @@ def delete(color, data):
 	messages.send_message('You are now completely deleted from this server.', data['from'])
 
 def init_help(color, data):
-	secondary_command = data['body'].split()[1] if len(data['body'].split()) > 1 else False
+	secondary_command = get_user_command_rest(data)
 	if not secondary_command:
 		commands_list = []
 		for key in user_commands:
 			commands_list.append("- {0}:  {1}".format(key, user_commands[key]['text']))
 		commands_string = '\n'.join(commands_list)  
 		messages.send_message("Here are all the currently available commands:\n{0}".format(commands_string), data['from'])
-	elif secondary_command in user_commands:
-		messages.send_message(user_commands[secondary_command]['help'], data['from'])		
+	elif secondary_command[0] in user_commands:
+		messages.send_message(user_commands[secondary_command[0]]['help'], data['from'])		
 	else:
 		messages.send_message("No further help options for this command. Text help for a list of commands.", data['from'])
 def init_color(color, data):
@@ -140,6 +144,22 @@ def scavenger_hunt(color,data):
 			messages.send_message('Nope! Try again. Text hint for help or repeat to repeat the clue', data['from'])
 			colortoserver.new_command(color, "SCAVENGER", {'command_state':clue_index, 'in_progress': 1})
 
+def init_upc(color, data):
+	secondary_commands = get_user_command_rest(data)
+	if not secondary_commands:
+		today_upc = colortoserver.get_today_upc()
+		if not today_upc:
+			 messages.send_message('No submissions yet for today, be the first to text in today!', data['from'])
+		else:
+			last_submitted = today_upc[-1];
+			upc_str = 'From {0} at {1},\n there are {2} people in the UPC line'.format('#'+ hex(last_submitted['color'])[2:], datetime.fromtimestamp(last_submitted['date_sent']).strftime("%B %d, %Y %I:%M:%S %p"), last_submitted['value'])
+			if 'message' in last_submitted:
+				upc_str += '\nand left the message:\n{0}'.format(last_submitted['message'])
+			messages.send_message(upc_str, data['from'])
+
+def upc(color, data):
+	pass
+
 def null_command(color, data):
 	pass
 sys_commands = {
@@ -168,8 +188,8 @@ sys_commands = {
 			'process':scavenger_hunt,
 		    },
 	"UPC":	{
-			#'init':init_upc_line,
-			#'process':upc_line,
+			'init':init_upc,
+			'process':upc,
 		}
 }
 
@@ -177,27 +197,29 @@ sys_commands = {
 user_commands = {
 	'help': {
 			'text': 'lists available commands. You can use help <command> to get more help options.',
-			'help': 'Yep, help help does give you help on how to use help. Help!',
+			'help': 'uses:\nhelp help\n  - Yep, help help does give you help on how to use help. Help!',
 			'commands' : ['HELP'],
 		},
 	'delete':{
 			'text': 'deletes your existence from the server',
-			'help': 'uses: delete\n- You will be removed from the server until you text us back.',
+			'help': 'uses:\ndelete\n  - You will be removed from the server until you text us back.',
 			'commands': ['DELETE'],
 		},
 	'reset':{
 			'text': 'resets your account with a new color',
-			'help': "uses: reset\n- Deletes then reinitializes you as if you were never here. Isn't it nice?",
+			'help': "uses:\nreset\n  - Deletes then reinitializes you as if you were never here. Isn't it nice?",
 			'commands':['DELETE', 'INIT'],
 		},
 	'color':{
 			'text': 'tells you what your color hex value is',
-			'help': "uses: color\n- Texts you back what your color is and link to a website that shows you your color.",
+			'help': "uses:\ncolor\n  - Texts you back what your color is and link to a website that shows you your color.",
 			'commands' : ['COLOR']
 		},
 	'upc':	{
 			'text': 'report or see last reported UPC Line',
-			'help': 'uses: upc\n- States the last reported UPC line and when it was reported.\nupc <number>\nReports the value to the server',
+			'help': 'uses:\nupc\n  - States the last reported UPC line and when it was reported.'
+				+ '\n\nupc <number>\n  - Reports the value to the server'
+				+ '\n\nupc <number> <message>\n  - Reports the value to the server and leave a message about what ingredients are left',
 			'commands' : ['UPC'],
 		}
 }

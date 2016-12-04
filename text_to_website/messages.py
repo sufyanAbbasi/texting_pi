@@ -17,7 +17,7 @@ def send_message(message, to_num):
 def get_messages():
 	return client.messages.list(
 		date_sent=date.today(),
-		page_size=500,
+		page_size=1000,
 	)
 
 def get_unprocessed_messages(last_processed_time):

@@ -2,6 +2,7 @@ import sys
 sys.path.insert(0, './../rest_server')
 
 import rest, time
+from datetime import datetime
 from copy import deepcopy
 from color import validate_color
 
@@ -36,6 +37,12 @@ command_factory = {
 	'command_state': 0,
 	'in_progress'  : 0,
 	'finished'     : 0,
+}
+
+upc_factory = {
+	'value'		: 0,
+	'date_sent'	: None,
+	'color'		: None,
 }
 
 def new_object(factory, data):
@@ -89,3 +96,16 @@ def new_command(color, command_name, data={}):
 	commands.append(new_command)
 	update_color(color, {'commands':commands})
 
+def update_upc(color, value, data={}):
+	data['value'] = value
+	data['date_sent'] = time.time()
+	data['color'] = color
+	new_upc = new_object(upc_factory, data)
+	rest.post('upc', new_upc)
+
+def get_today_upc():
+	try:
+		today = datetime.today().date()
+                return [obj for obj in rest.get('upc') if datetime.fromtimestamp(obj['date_sent']).date() == today]
+        except IndexError:
+                raise ValueError("no data")

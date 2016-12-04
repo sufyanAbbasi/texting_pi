@@ -1786,3 +1786,87 @@ Unexpected token '\'' at 1:2
 [0mGET /colors?color=13525482 [32m200 [0m4.913 ms - 234[0m
 [0mGET /colors?color=13525482 [32m200 [0m7.376 ms - 234[0m
 [0mGET /colors?color=13525482 [32m200 [0m4.835 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.036 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.809 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.822 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m17.188 ms - 234[0m
+[0mGET /db [36m304 [0m4.755 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.106 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.819 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.688 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.480 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.875 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.621 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.912 ms - 234[0m
+[0mGET /db [36m304 [0m3.521 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.767 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.457 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.841 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.823 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.871 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.689 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.080 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.747 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.681 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.864 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.996 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.817 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m15.438 ms - 234[0m
+[0mGET /db [36m304 [0m4.774 ms - -[0m
+[0mGET /db [36m304 [0m6.776 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.441 ms - 234[0m
+[0mGET /db [36m304 [0m7.056 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/upc
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [32m200 [0m85.873 ms - 729[0m
+[0mPATCH /upc/ [33m404 [0m157.549 ms - 2[0m
+[0mGET /db [36m304 [0m13.467 ms - -[0m
+[0mPOST /upc [32m201 [0m29.100 ms - 76[0m
+[0mGET /db [32m200 [0m6.242 ms - 833[0m
+[0mDELETE /upc/1 [32m200 [0m20.794 ms - 2[0m
+[0mGET /db [32m200 [0m6.170 ms - 729[0m
+[0mGET /upc [32m200 [0m18.916 ms - 2[0m
+[0mPOST /upc [32m201 [0m9.921 ms - 96[0m
+[0mGET /upc [32m200 [0m10.649 ms - 114[0m
+[0mGET /db [32m200 [0m6.361 ms - 857[0m
+[0mGET /upc [32m200 [0m5.607 ms - 114[0m
+[0mGET /upc [32m200 [0m4.527 ms - 114[0m
+[0mPOST /upc [32m201 [0m16.696 ms - 97[0m
+[0mGET /upc [32m200 [0m5.318 ms - 227[0m
+[0mGET /upc [32m200 [0m7.862 ms - 227[0m
+[0mGET /upc [32m200 [0m12.342 ms - 227[0m
+[0mGET /upc [32m200 [0m4.830 ms - 227[0m
+[0mGET /upc [32m200 [0m4.999 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m20.329 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.145 ms - 234[0m
+[0mGET /upc [32m200 [0m4.788 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.442 ms - 234[0m
+[0mGET /upc [32m200 [0m10.345 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.709 ms - 234[0m
+[0mGET /upc [32m200 [0m7.607 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.748 ms - 234[0m
+[0mGET /upc [32m200 [0m7.386 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m19.837 ms - 234[0m
+[0mGET /upc [32m200 [0m4.812 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.317 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.378 ms - 234[0m
+[0mGET /upc [32m200 [0m7.601 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.043 ms - 234[0m
+[0mGET /upc [32m200 [0m4.534 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.735 ms - 234[0m
+[0mGET /upc [32m200 [0m8.290 ms - 227[0m
