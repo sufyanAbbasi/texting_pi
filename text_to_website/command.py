@@ -25,7 +25,7 @@ def check_command(color, check_val):
 	return command
 
 def get_user_command(data):
-	return data['body'].lower() if data['body'].lower() in user_commands else False
+	return data['body'].lower().split()[0] if data['body'].lower().split()[0] in user_commands else False
 
 def process_next_command(color, data):
 	commands = colortoserver.get_color(color)['commands']
@@ -91,12 +91,17 @@ def delete(color, data):
 	messages.send_message('You are now completely deleted from this server.', data['from'])
 
 def init_help(color, data):
-	commands_list = []
-	for key in user_commands:
-		commands_list.append("- {0}:  {1}".format(key, user_commands[key]['text']))
-	commands_string = '\n'.join(commands_list)  
-	messages.send_message("Here are all the currently available commands:\n{0}".format(commands_string), data['from'])
-
+	secondary_command = data['body'].split()[1] if len(data['body'].split()) > 1 else False
+	if not secondary_command:
+		commands_list = []
+		for key in user_commands:
+			commands_list.append("- {0}:  {1}".format(key, user_commands[key]['text']))
+		commands_string = '\n'.join(commands_list)  
+		messages.send_message("Here are all the currently available commands:\n{0}".format(commands_string), data['from'])
+	elif secondary_command in user_commands:
+		messages.send_message(user_commands[secondary_command]['help'], data['from'])		
+	else:
+		messages.send_message("No further help options for this command. Text help for a list of commands.", data['from'])
 def init_color(color, data):
 	hex_color = hex(color)
 	message = "Your color in hex is #{0}.\nSee your color at: colorhexa.com/{0}".format(hex_color[2:])
@@ -163,8 +168,8 @@ sys_commands = {
 			'process':scavenger_hunt,
 		    },
 	"UPC":	{
-			'init':init_upc_line,
-			'process':upc_line,
+			#'init':init_upc_line,
+			#'process':upc_line,
 		}
 }
 
