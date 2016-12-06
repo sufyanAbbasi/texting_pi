@@ -1870,3 +1870,165 @@ Unexpected token '\'' at 1:2
 [0mGET /upc [32m200 [0m4.534 ms - 227[0m
 [0mGET /colors?color=13525482 [32m200 [0m6.735 ms - 234[0m
 [0mGET /upc [32m200 [0m8.290 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.432 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.060 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.443 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.394 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m30.611 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.869 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.188 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.420 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.422 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.388 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.459 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.655 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.794 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.429 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m16.246 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.554 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.829 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.503 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.654 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.722 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.354 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.243 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m71.837 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m17.353 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m12.970 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m16.908 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.429 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.813 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.943 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.124 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.827 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.377 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.029 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m57.093 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.453 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.709 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.966 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.432 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m58.238 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.218 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.973 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.068 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.516 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m12.994 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m20.138 ms - 234[0m
+[0mGET /upc [32m200 [0m5.073 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.518 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.582 ms - 234[0m
+[0mGET /upc [32m200 [0m4.742 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.495 ms - 234[0m
+[0mGET /upc [32m200 [0m5.382 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.896 ms - 234[0m
+[0mGET /upc [32m200 [0m4.564 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.851 ms - 234[0m
+[0mGET /upc [32m200 [0m6.407 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.716 ms - 234[0m
+[0mGET /upc [32m200 [0m4.242 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.794 ms - 234[0m
+[0mGET /upc [32m200 [0m10.202 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m15.326 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.861 ms - 234[0m
+[0mGET /upc [32m200 [0m18.586 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m12.889 ms - 234[0m
+[0mGET /upc [32m200 [0m12.350 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m17.012 ms - 234[0m
+[0mGET /upc [32m200 [0m4.232 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.338 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.189 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.758 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m12.468 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.087 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m21.049 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.135 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.397 ms - 234[0m
+[0mGET /db [32m200 [0m4.260 ms - 984[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.961 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.666 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.862 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.070 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.022 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.971 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.897 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.759 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m12.337 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.563 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.007 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.528 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.310 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m23.667 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.843 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.459 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.798 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m4.876 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m15.570 ms - 234[0m
+[0mGET /db [36m304 [0m20.220 ms - -[0m
+[0mGET /upc [32m200 [0m12.686 ms - 227[0m
+[0mGET /upc?id=1 [32m200 [0m6.157 ms - 114[0m
+[0mGET /upc?id=2 [32m200 [0m6.064 ms - 115[0m
+[0mGET /db [36m304 [0m5.324 ms - -[0m
+[0mGET /db [36m304 [0m9.146 ms - -[0m
+[0mGET /db [32m200 [0m12.968 ms - 984[0m
+[0mGET /db [32m200 [0m4.374 ms - 984[0m
+[0mGET /db [36m304 [0m5.198 ms - -[0m
+[0mGET / [32m200 [0m8.683 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.663 ms - 152[0m
+[0mGET /images/json.png [32m200 [0m3.343 ms - 278[0m
+[0mGET /db [32m200 [0m4.585 ms - 984[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/upc
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET / [36m304 [0m61.496 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m12.207 ms - -[0m
+[0mGET /images/json.png [36m304 [0m5.933 ms - -[0m
+[0mGET /db [36m304 [0m55.322 ms - -[0m
+[0mGET /db [36m304 [0m7.764 ms - -[0m
+[0mGET /db [36m304 [0m5.491 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m40.106 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m14.580 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.197 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.603 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.748 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.864 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.012 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.884 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.935 ms - 234[0m
+[0mGET /db [36m304 [0m5.632 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.455 ms - 234[0m
+[0mGET /upc [32m200 [0m8.528 ms - 227[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.827 ms - 234[0m
+[0mGET /db [36m304 [0m4.102 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.290 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.483 ms - 234[0m
+[0mPOST /upc [32m201 [0m185.675 ms - 82[0m
+[0mGET /db [32m200 [0m4.529 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.434 ms - 234[0m
+[0mGET /upc [32m200 [0m5.147 ms - 323[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.236 ms - 234[0m
+[0mPOST /upc [32m201 [0m13.608 ms - 116[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.554 ms - 234[0m
+[0mGET /upc [32m200 [0m6.190 ms - 455[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.626 ms - 234[0m
+[0mGET /upc [32m200 [0m6.831 ms - 455[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.904 ms - 234[0m
+[0mGET /upc [32m200 [0m5.628 ms - 455[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.604 ms - 234[0m
+[0mPOST /upc [32m201 [0m6.679 ms - 82[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.157 ms - 234[0m
+[0mGET /upc [32m200 [0m32.233 ms - 551[0m

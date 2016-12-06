@@ -1,5 +1,6 @@
 import messages, colortoserver, hashtocolor
 from datetime import datetime
+from dateutil import tz
 
 def error(message, data):
 	messages.send_message(message, data['from'])
@@ -149,13 +150,25 @@ def init_upc(color, data):
 	if not secondary_commands:
 		today_upc = colortoserver.get_today_upc()
 		if not today_upc:
-			 messages.send_message('No submissions yet for today, be the first to text in today!', data['from'])
+			 messages.send_message('No submissions yet for today, be the first to text in today!\nText help upc for a list of upc commands.', data['from'])
 		else:
 			last_submitted = today_upc[-1];
-			upc_str = 'From {0} at {1},\n there are {2} people in the UPC line'.format('#'+ hex(last_submitted['color'])[2:], datetime.fromtimestamp(last_submitted['date_sent']).strftime("%B %d, %Y %I:%M:%S %p"), last_submitted['value'])
+			hex_color = '#'+ hex(last_submitted['color'])[2:]
+			timestamp = datetime.fromtimestamp(last_submitted['date_sent']).strftime("%B %d, %Y %I:%M:%S %p")
+			upc_str = 'From {0} at {1},\n there are {2} people in the UPC line'.format(hex_color, timestamp, last_submitted['value'])
 			if 'message' in last_submitted:
-				upc_str += '\nand left the message:\n{0}'.format(last_submitted['message'])
+				upc_str += ' and left the message:\n{0}'.format(last_submitted['message'])
 			messages.send_message(upc_str, data['from'])
+	else:
+		try:	
+			num_submitted = int(secondary_commands[0])
+    		except ValueError:
+        		messages.send_message("Sorry, the value you submitted was not a number. Text help upc for how to submit upc responses.", data['from'])
+			return
+		upc_message = " ".join(secondary_commands[1::])
+		colortoserver.update_upc(color, num_submitted, {'message':upc_message} if upc_message else {})
+		messages.send_message("Thank you! Your submission was submitted. To make sure, text upc to see your message (unless someone updated over you).", data['from'])
+		
 
 def upc(color, data):
 	pass

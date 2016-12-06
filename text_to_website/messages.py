@@ -17,12 +17,16 @@ def send_message(message, to_num):
 def get_messages():
 	return client.messages.list(
 		date_sent=date.today(),
-		page_size=1000,
+		page_size=500,
+		to="+14242420412",
 	)
 
 def get_unprocessed_messages(last_processed_time):
-	return [x for x in get_messages() if x.date_sent >= last_processed_time and x.to == '+14242420412']
+	return [x for x in get_messages() if x.date_sent >= last_processed_time]
 
-def delete_messages():
-	for message in get_messages():
-		client.messages.delete(message.sid)
+def delete_message(message):
+         client.messages.delete(message.sid)
+
+def delete_messages_before(when):
+	for message in [x for x in get_messages() if x.date_sent < when]:
+		delete_message(message)

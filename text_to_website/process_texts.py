@@ -1,4 +1,4 @@
-from messages import get_unprocessed_messages
+from messages import get_unprocessed_messages, delete_message
 from user import process_text
 import os,time
 import cPickle as pickle
@@ -15,10 +15,13 @@ def process_unprocessed_texts():
 
 	unprocessed_messages = get_unprocessed_messages(last_unprocessed_time)
 	pickle.dump({'last_unprocessed_time': datetime.now()}, open(pickle_filepath, 'wb'))
-
-	for message in reversed(unprocessed_messages):
-		process_text(message)
 	
+	numbers_processed = set()
+	for message in reversed(unprocessed_messages):
+		if message.from_ not in numbers_processed:
+			process_text(message)
+		numbers_processed.add(message.from_)
+		delete_message(message)
 	time.sleep(5)
 
 while True:
