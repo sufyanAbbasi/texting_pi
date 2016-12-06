@@ -87,7 +87,7 @@ def initialize(color, data):
 		delete(color, data)
 
 def init_delete(color, data):
-	messages.send_message("Thanks for being a part of this! You will be deleted from this server, but you can always text back at this number.", data['from'])	
+	messages.send_message("Thanks for being a part of this! You will be deleted from this server, but you can always text back at this number.\nHowever, everything you've posted will remain on the server.", data['from'])	
 	delete(color, data)
 
 def delete(color, data):
@@ -168,33 +168,32 @@ def init_upc(color, data):
 		upc_message = " ".join(secondary_commands[1::])
 		colortoserver.update_upc(color, num_submitted, {'message':upc_message} if upc_message else {})
 		messages.send_message("Thank you! Your submission was submitted. To make sure, text upc to see your message (unless someone updated over you).", data['from'])
-		
 
-def upc(color, data):
-	pass
+def init_about(color, data):
+	messages.send_message("Thanks for your curiosity. This is an open-source project by Sufyan Abbasi (github.com/sufyanAbbasi/texting_pi) where every user is a hexadecimal color. All of the web services used can only be accessed on Vassar wifi. I'm all about privacy so that's why I don't save anyone's phone number and instead I use an encryption algorithm to match you up with your color. I'm interested in creating a social network that uses simple messaging so anyone with a cell phone can be a part of it. Enjoy!", data['from'])
 
 def null_command(color, data):
 	pass
 sys_commands = {
 	"VALIDATE": {
 			'init':init_validate,
-			'process':validate
+			'process':validate,
 		    },
 	"INIT":     {
 			'init':init_init,
-			'process':initialize
+			'process':initialize,
 		    },
 	"DELETE":   {
 			'init':init_delete,
-			'process':delete
+			'process':delete,
 		    },
 	"HELP":     {
 			'init':init_help,
-			'process':null_command
+			'process':null_command,
 		    },
 	"COLOR":    {
 			'init':init_color,
-			'process':null_command
+			'process':null_command,
 		    },
 	"SCAVENGER":{
 			'init':init_scavenger_hunt,
@@ -202,8 +201,12 @@ sys_commands = {
 		    },
 	"UPC":	{
 			'init':init_upc,
-			'process':upc,
-		}
+			'process':null_command,
+		},
+	"ABOUT":{
+			'init':init_about,
+			'process':null_command,
+		},	
 }
 
 
@@ -214,7 +217,7 @@ user_commands = {
 			'commands' : ['HELP'],
 		},
 	'delete':{
-			'text': 'deletes your existence from the server',
+			'text': 'deletes your user color from the server, but everything you submitted will remain.',
 			'help': 'uses:\ndelete\n  - You will be removed from the server until you text us back.',
 			'commands': ['DELETE'],
 		},
@@ -234,5 +237,10 @@ user_commands = {
 				+ '\n\nupc <number>\n  - Reports the value to the server'
 				+ '\n\nupc <number> <message>\n  - Reports the value to the server and leave a message about what ingredients are left',
 			'commands' : ['UPC'],
-		}
+		},
+	'about':{
+			'text': 'tells you about this project!',
+			'help': 'uses:\nabout\n - tells you what this projects about.',
+			'commands' : ['ABOUT'],
+		},
 }

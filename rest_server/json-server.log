@@ -2032,3 +2032,10 @@ Unexpected token '\'' at 1:2
 [0mPOST /upc [32m201 [0m6.679 ms - 82[0m
 [0mGET /colors?color=13525482 [32m200 [0m9.157 ms - 234[0m
 [0mGET /upc [32m200 [0m32.233 ms - 551[0m
+[0mGET /colors?color=13525482 [32m200 [0m17.214 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.010 ms - 234[0m
+[0mGET /db [32m200 [0m18.993 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.362 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m62.349 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m62.366 ms - 234[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.396 ms - 234[0m
