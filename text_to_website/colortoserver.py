@@ -10,25 +10,16 @@ color_factory = {
 	'color'        : None,
 	'date_created' : None,
 	'authenticated': 0,
-	'texts'        : [],
+	'messages'     : [],
 	'responses'    : [],
 	'commands'     : [],
-	'has_commands' : 0,
-	'has_texts'    : 0,
-	'has_responses': 0,
 }
 
-text_factory = {
-	'body'      : None,
+message_factory = {
+	'color'	    : 0,
+	'message'   : None,
 	'date_sent' : None,
-	'processed' : 0,
-}
-
-response_factory = {
-	'from'      : None,
-	'body'      : None,
-	'date_sent' : None,
-	'processed' : 0,
+	'seen'      : 0,
 }
 
 command_factory = {
@@ -122,3 +113,25 @@ def update_suggestion(color, suggestion, data={}):
         data['color'] = color
         new_suggestion = new_object(suggestion_factory, data)
         rest.post('suggestions', new_suggestion)
+
+def update_all_messages(color, messages):
+	update_color(color, {'messages': messages})
+
+def update_messages(message, from_color, to_color=None, data={}):
+	data['color'] = from_color
+	data['message'] = message
+	data['date_sent'] = time.time()
+	from_message = new_object(message_factory, data)
+	if to_color is None:
+		rest.post('messages', from_message)
+		return True
+	elif not available_color(to_color):
+		current_messages = get_color(to_color)['messages']
+        	current_messages.append(from_message)
+		update_all_messages(to_color, current_messages)
+		return True
+	else:
+		return False
+
+def get_messages(color):
+	return get_color(color)['messages']

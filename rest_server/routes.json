@@ -1,2 +1,4 @@
 {
+":resource/:id": "/:resource/:id",
+":resource/:id/texts": "/:resource/:id/texts"
 }

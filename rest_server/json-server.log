@@ -2212,3 +2212,254 @@ Unexpected token '\'' at 1:2
 [0mGET /colors?color=13525482 [32m200 [0m8.908 ms - 234[0m
 [0mGET /colors?color=13525482 [32m200 [0m7.679 ms - 234[0m
 [0mGET /colors?color=13525482 [32m200 [0m8.392 ms - 234[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/upc
+  http://localhost:3000/suggestions
+  http://localhost:3000/messages
+
+  Other routes
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [32m200 [0m85.909 ms - -[0m
+[0mGET /1 [33m404 [0m15.935 ms - 2[0m
+[0mGET /colors/1 [32m200 [0m43.897 ms - 206[0m
+[0mGET /colors/1/texts [33m404 [0m23.902 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/upc
+  http://localhost:3000/suggestions
+  http://localhost:3000/messages
+
+  Other routes
+  :resource/:id -> /:resource/:id
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /colors/1 [36m304 [0m111.870 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+undefined:4
+}
+^
+
+SyntaxError: Unexpected token } in JSON at position 92
+    at Object.parse (native)
+    at /usr/local/lib/node_modules/json-server/src/cli/run.js:109:27
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/utils/load.js:28:5)
+    at start (/usr/local/lib/node_modules/json-server/src/cli/run.js:103:5)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/run.js:139:3)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/index.js:90:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/json-server/bin/index.js:2:22)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/upc
+  http://localhost:3000/suggestions
+  http://localhost:3000/messages
+
+  Other routes
+  :resource/:id -> /:resource/:id
+  :resource/:id/:resource -> /:resource/:id/:resource
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /colors/1/texts [33m404 [0m60.544 ms - 2[0m
+[0mGET /colors/1/texts [33m404 [0m12.797 ms - 2[0m
+[0mGET /colors/1.texts [33m404 [0m27.125 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+undefined:4
+}
+^
+
+SyntaxError: Unexpected token } in JSON at position 84
+    at Object.parse (native)
+    at /usr/local/lib/node_modules/json-server/src/cli/run.js:109:27
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/utils/load.js:28:5)
+    at start (/usr/local/lib/node_modules/json-server/src/cli/run.js:103:5)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/run.js:139:3)
+    at module.exports (/usr/local/lib/node_modules/json-server/src/cli/index.js:90:3)
+    at Object.<anonymous> (/usr/local/lib/node_modules/json-server/bin/index.js:2:22)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/upc
+  http://localhost:3000/suggestions
+  http://localhost:3000/messages
+
+  Other routes
+  :resource/:id -> /:resource/:id
+  :resource/:id/texts -> /:resource/:id/texts
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /colors/1/texts [33m404 [0m99.730 ms - 2[0m
+[0mGET /colors/1 [36m304 [0m38.782 ms - -[0m
+[0mGET /colors/1:texts [33m404 [0m12.031 ms - 2[0m
+[0mGET /colors/1/texts [33m404 [0m7.333 ms - 2[0m
+[0mGET / [32m200 [0m12.246 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.980 ms - 152[0m
+[0mGET /images/json.png [32m200 [0m4.541 ms - 278[0m
+[0mGET /db [36m304 [0m6.990 ms - -[0m
+[0mGET /db [36m304 [0m9.333 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m24.208 ms - 234[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/upc
+  http://localhost:3000/suggestions
+  http://localhost:3000/messages
+
+  Other routes
+  :resource/:id -> /:resource/:id
+  :resource/:id/texts -> /:resource/:id/texts
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [32m200 [0m82.407 ms - -[0m
+[0mGET /colors?color=3716342 [32m200 [0m46.653 ms - 561[0m
+[0mDELETE /colors/3 [32m200 [0m41.665 ms - 2[0m
+[0mGET /db [32m200 [0m8.273 ms - -[0m
+[0mGET /db [36m304 [0m11.796 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.089 ms - 170[0m
+[0mPOST /messages [32m201 [0m146.273 ms - 103[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.439 ms - 170[0m
+[0mPATCH /colors/1 [32m200 [0m12.434 ms - 150[0m
+[0mGET /db [32m200 [0m6.239 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.532 ms - 172[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.271 ms - 172[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.067 ms - 172[0m
+[0mGET /db [36m304 [0m12.423 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3000/colors
+  http://localhost:3000/upc
+  http://localhost:3000/suggestions
+  http://localhost:3000/messages
+
+  Other routes
+  :resource/:id -> /:resource/:id
+  :resource/:id/texts -> /:resource/:id/texts
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+[0mGET /db [32m200 [0m81.495 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m45.059 ms - 170[0m
+[0mGET /colors?color=13525482 [32m200 [0m8.972 ms - 170[0m
+[0mGET /db [36m304 [0m15.717 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.791 ms - 170[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.507 ms - 170[0m
+[0mPOST /messages [32m201 [0m170.871 ms - 103[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.869 ms - 170[0m
+[0mPATCH /colors/1 [32m200 [0m21.397 ms - 268[0m
+[0mGET /db [32m200 [0m11.473 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.103 ms - 304[0m
+[0mPOST /messages [32m201 [0m9.415 ms - 103[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.894 ms - 304[0m
+[0mPATCH /colors/1 [32m200 [0m10.636 ms - 386[0m
+[0mGET /db [32m200 [0m10.674 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m6.250 ms - 434[0m
+[0mPATCH /colors/1 [32m200 [0m7.097 ms - 148[0m
+[0mGET /db [32m200 [0m6.098 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m5.487 ms - 170[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.888 ms - 170[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.558 ms - 170[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.931 ms - 170[0m
+[0mGET /colors?color=13525482 [32m200 [0m13.861 ms - 170[0m
+[0mPATCH /colors/1 [32m200 [0m10.241 ms - 281[0m
+[0mGET /db [32m200 [0m4.302 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.550 ms - 317[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.635 ms - 317[0m
+[0mGET /colors?color=13525482 [32m200 [0m19.931 ms - 317[0m
+[0mPATCH /colors/1 [32m200 [0m14.245 ms - 415[0m
+[0mGET /db [32m200 [0m5.707 ms - -[0m
+[0mGET /colors?color=1352 [32m200 [0m5.000 ms - 2[0m
+[0mGET /db [36m304 [0m5.878 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.396 ms - 463[0m
+[0mPOST /messages [32m201 [0m10.644 ms - 121[0m
+[0mGET /db [32m200 [0m7.107 ms - -[0m
+[0mGET /db [36m304 [0m58.648 ms - -[0m
+[0mGET /db [36m304 [0m9.154 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.572 ms - 463[0m
+[0mGET /colors?color=13525482 [32m200 [0m10.345 ms - 463[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.323 ms - 463[0m
+[0mPATCH /colors/1 [32m200 [0m13.487 ms - 551[0m
+[0mGET /db [32m200 [0m7.113 ms - -[0m
+[0mGET /colors?color=13525482 [32m200 [0m17.955 ms - 611[0m
+[0mGET /colors?color=13525482 [32m200 [0m15.108 ms - 611[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.374 ms - 611[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.762 ms - 611[0m
+[0mPATCH /colors/1 [32m200 [0m17.008 ms - 551[0m
+[0mGET /colors?color=13525482 [32m200 [0m12.865 ms - 611[0m
+[0mGET /colors?color=13525482 [32m200 [0m11.782 ms - 611[0m
+[0mGET /colors?color=13525482 [32m200 [0m7.601 ms - 611[0m
+[0mPATCH /colors/1 [32m200 [0m8.952 ms - 551[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.124 ms - 611[0m
+[0mGET /colors?color=13525482 [32m200 [0m28.235 ms - 611[0m
+[0mPOST /upc [32m201 [0m12.623 ms - 177[0m
+[0mGET /colors?color=13525482 [32m200 [0m9.190 ms - 611[0m
+[0mGET /upc [32m200 [0m8.581 ms - 904[0m

@@ -30,7 +30,7 @@ def get_user_command(data):
 	return data['body'].lower().strip().split()[0] if data['body'].lower().strip().split()[0] in user_commands else False
 
 def get_user_command_rest(data):
-	return data['body'].lower().strip().split()[1::]
+	return data['body'].strip().split()[1::]
 
 def process_next_command(color, data):
 	commands = colortoserver.get_color(color)['commands']
@@ -191,7 +191,7 @@ def init_upc(color, data):
 			timestamp = datetime.fromtimestamp(last_submitted['date_sent']).strftime("%B %d, %Y %I:%M:%S %p")
 			upc_str = 'From {0} at {1},\n there are {2} people in the UPC line'.format(hex_color, timestamp, last_submitted['value'])
 			if 'message' in last_submitted:
-				upc_str += ' and left the message:\n{0}'.format(last_submitted['message'])
+				upc_str += ' and left the message:\n\n{0}'.format(last_submitted['message'])
 			messages.send_message(upc_str, data['from'])
 	else:
 		try:	
@@ -215,6 +215,23 @@ def init_suggestion(color, data):
 def init_about(color, data):
 	messages.send_message("Thanks for your curiosity. This is an open-source project by Sufyan Abbasi (github.com/sufyanAbbasi/texting_pi) where every user is a hexadecimal color. All of the web services used can only be accessed on Vassar wifi. I'm all about privacy so that's why I don't save anyone's phone number and instead I use an encryption algorithm to match you up with your color. I'm interested in creating a social network that uses simple messaging so anyone with a cell phone can be a part of it. Enjoy!", data['from'])
 
+def init_message(color, data):
+	secondary_commands = get_user_command_rest(data)
+	if not secondary_commands:
+		all_messages = colortoserver.get_messages(color)
+		new_messages = list(filter(lambda message: not message['seen'], all_messages))
+		if not all_messages:
+			 messages.send_message("Sorry, you have no messages at all. Have fun and send some out! Text helpme message", data['from'])
+		elif new_messages:
+			messages.send_message("You have {0} new messages:".format(len(new_messages)), data['from'])
+			for message in new_messages:
+				messages.send_message(message['message'], data['from'])
+		else:
+			messages.send_message("No new messages for you. Your last received message was:", data['from'])
+			messages.send_message(all_messages[-1]['message'], data['from'])
+		map(lambda message: message.__setitem__('seen',1), all_messages)
+		colortoserver.update_all_messages(color, all_messages)	
+	
 def null_command(color, data):
 	pass
 sys_commands = {
@@ -252,6 +269,11 @@ sys_commands = {
 		},
 	"SUGGESTION":{
 			'init':init_suggestion,
+			'process':null_command,
+		},
+
+	"MESSAGE":{
+			'init':init_message,
 			'process':null_command,
 		},
 }
@@ -300,5 +322,13 @@ user_commands = {
 			'text': 'submit a suggestion to improve this project',
 			'help': 'uses:\nsuggestion <message>\n - suggestions on new features or bugs or whatever',
 			'commands' : ['SUGGESTION'],
+		},
+	'message':{
+			'text': 'checks your messages, sends a message to all, or sends a message to a color',
+			'help': 'uses:\nmessage\n - checks your messages'
+				+ '\n\nmessage <message>\n - posts your message to the website'
+				+ '\n\nmessage <color> <message>\n - sends your message to specific color.'
+				+ '\n\n NOTE: texting message <color> will just post a color hex to the website',
+			'commands' : ['MESSAGE']
 		},
 }

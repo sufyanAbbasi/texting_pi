@@ -1,6 +1,7 @@
 ToDo:
 - create a message passing system
 - Design Website
+- schedule deleting all the stuff in Twilio at midnight
 
 Finished:
 10/28/16 5:32 AM
