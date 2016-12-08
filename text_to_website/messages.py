@@ -1,12 +1,11 @@
-import sys
+import sys, logging
 sys.path.insert(0, './secret')
 from twilio.rest import TwilioRestClient
 from twilio import TwilioRestException
 from auth import *
 from datetime import date
 from datetime import datetime
-import logging
-logging.basicConfig(filename='twilio.log',level=logging.DEBUG)
+
 client = TwilioRestClient(account_sid, auth_token)
 
 def send_message(message, to_num):
@@ -14,7 +13,7 @@ def send_message(message, to_num):
 		client.messages.create(
 			to=str(to_num), 
 			from_="+14242420412",
-			body=str(message), 
+			body=str(message.encode('utf-8')), 
 		)
 	except TwilioRestException as e:
     		logging.error(e)

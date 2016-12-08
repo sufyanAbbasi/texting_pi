@@ -1,4 +1,4 @@
-import messages, colortoserver, hashtocolor
+import messages, colortoserver, user
 from datetime import datetime
 from dateutil import tz
 
@@ -91,11 +91,7 @@ def initialize(color, data):
 
 def init_delete(color, data):
 	messages.send_message("Thanks for being a part of this! You will be deleted from this server, but you can always text back at this number.\nHowever, everything you've posted will remain on the server.", data['from'])	
-	delete(color, data)
-
-def delete(color, data):
-	colortoserver.delete_color(color)
-	hashtocolor.delete_hash(data['from'])
+	user.delete(color, data)
 	messages.send_message('You are now completely deleted from this server.', data['from'])
 
 def init_helpme(color, data):
@@ -231,7 +227,26 @@ def init_message(color, data):
 			messages.send_message(all_messages[-1]['message'], data['from'])
 		map(lambda message: message.__setitem__('seen',1), all_messages)
 		colortoserver.update_all_messages(color, all_messages)	
-	
+	else:
+		to_color = validate_color_input(secondary_commands[0])
+		reply = ''
+		if not to_color:
+			if to_color is not None:
+				all_message = " ".join(secondary_commands[0::])
+				colortoserver.update_messages(all_message, color)
+				reply = "Thanks! Your message was successfully submitted to vaspberry.duckdns.org"
+			else:
+				reply = "Sorry, the hex value must be 6 digits."
+		elif not colortoserver.available_color(hex_to_int(to_color)):
+			to_message = " ".join(secondary_commands[1::])
+			if to_message:
+				colortoserver.update_messages(to_message, color, hex_to_int(to_color))
+				reply = "Successfully sent your message to {0}. Text message to check for their reply.".format('#' + to_color[2:])
+			else:
+				reply = "The color was correct, but you didn't submit a message. Text helpme message for help on messaging."
+		else:
+			reply = "There are no users with color {0}. Try another color perhaps?".format('#' + to_color[2:])
+		messages.send_message(reply, data['from'])
 def null_command(color, data):
 	pass
 sys_commands = {
@@ -245,7 +260,7 @@ sys_commands = {
 		    },
 	"DELETE":   {
 			'init':init_delete,
-			'process':delete,
+			'process':null_command,
 		    },
 	"HELPME":     {
 			'init':init_helpme,
@@ -327,8 +342,14 @@ user_commands = {
 			'text': 'checks your messages, sends a message to all, or sends a message to a color',
 			'help': 'uses:\nmessage\n - checks your messages'
 				+ '\n\nmessage <message>\n - posts your message to the website'
-				+ '\n\nmessage <color> <message>\n - sends your message to specific color.'
-				+ '\n\n NOTE: texting message <color> will just post a color hex to the website',
+				+ '\n\nmessage <color> <message>\n - sends your message to specific color.',
 			'commands' : ['MESSAGE']
 		},
+	'messages':{
+                        'text': '<same as messages>',
+                        'help': 'uses:\nmessages\n - checks your messages'
+                                + '\n\nmessages <message>\n - posts your message to the website'
+                                + '\n\nmessages <color> <message>\n - sends your message to specific color.',
+                        'commands' : ['MESSAGE']
+                },
 }

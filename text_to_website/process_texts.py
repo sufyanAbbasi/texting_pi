@@ -1,8 +1,9 @@
-from messages import get_unprocessed_messages, delete_message
+from messages import get_unprocessed_messages, delete_message, send_message
 from user import process_text
-import os,time
+import os,time, logging, traceback
 import cPickle as pickle
 from datetime import datetime 
+logging.basicConfig(filename='error.log',level=logging.ERROR)
 
 pickle_filepath = "./secret/last_processed_time.p"
 
@@ -19,7 +20,11 @@ def process_unprocessed_texts():
 	numbers_processed = set()
 	for message in reversed(unprocessed_messages):
 		if message.from_ not in numbers_processed:
-			process_text(message)
+			try:
+				process_text(message)
+			except Exception as e:
+				send_message("Yo, something went wrong. Check the error files.", "+14085208922")
+				logging.error(traceback.format_exc())
 		numbers_processed.add(message.from_)
 		delete_message(message)
 	time.sleep(5)

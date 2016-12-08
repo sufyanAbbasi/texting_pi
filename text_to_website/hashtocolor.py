@@ -44,6 +44,16 @@ def delete_hash(from_num):
 			return
         raise ValueError("number not in hash")
 
-
+def delete_color(color):
+	hashmap = pickle.load( open( "./secret/hash-color.p", "rb" ) )
+	for last_digits,hash in hashmap.items():
+		for hash,col in hashmap[last_digits].items():
+			if col == color:
+				hashmap[last_digits].pop(hash, None)
+				if not hashmap[last_digits]:
+                                	hashmap.pop(last_digits, None)
+	pickle.dump(hashmap, open( "./secret/hash-color.p", "wb" ))
 def reset_hash():
 	 pickle.dump({}, open( "./secret/hash-color.p", "wb" ))
+
+
