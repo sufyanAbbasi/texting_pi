@@ -1,2 +1,2 @@
 #!/bin/bash
-kill 1978
+kill 7529

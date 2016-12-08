@@ -14,23 +14,42 @@
     },
     {
       "has_responses": 0,
+      "commands": [],
+      "authenticated": 0,
+      "responses": [],
+      "color": 12305382,
+      "has_commands": 0,
+      "texts": [],
+      "has_texts": 0,
+      "date_created": 1481045227.430597,
+      "id": 2
+    },
+    {
+      "has_responses": 0,
       "commands": [
         {
-          "date_sent": 1478547301.283482,
-          "command_state": 1,
-          "in_progress": 1,
-          "command": "SCAVENGER",
+          "date_sent": 1481108194.370832,
+          "command_state": 0,
+          "in_progress": 0,
+          "command": "INIT",
+          "finished": 0
+        },
+        {
+          "date_sent": 1481108195.073795,
+          "command_state": 0,
+          "in_progress": 0,
+          "command": "VALIDATE",
           "finished": 0
         }
       ],
       "authenticated": 0,
       "responses": [],
-      "color": 5127574,
+      "color": 3716342,
       "has_commands": 0,
       "texts": [],
       "has_texts": 0,
-      "date_created": 1478493599.226154,
-      "id": 2
+      "date_created": 1481108194.344841,
+      "id": 3
     }
   ],
   "upc": [
@@ -66,6 +85,33 @@
       "color": 13525482,
       "value": 0,
       "id": 5
+    },
+    {
+      "date_sent": 1481108135.497625,
+      "color": 13525482,
+      "message": "wednesday is the last day of upc… how sad!!",
+      "value": 0,
+      "id": 6
+    }
+  ],
+  "suggestions": [
+    {
+      "date_sent": 1481021620.998816,
+      "color": 13525482,
+      "suggestion": "more stuff please",
+      "id": 1
+    },
+    {
+      "date_sent": 1481045730.864759,
+      "color": 12305382,
+      "suggestion": "good",
+      "id": 2
+    },
+    {
+      "date_sent": 1481045843.214252,
+      "color": 13525482,
+      "suggestion": "hahaha xd",
+      "id": 3
     }
   ]
 }

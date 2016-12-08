@@ -45,6 +45,12 @@ upc_factory = {
 	'color'		: None,
 }
 
+suggestion_factory = {
+	'suggestion'	: "",
+	'date_sent'	: 0,
+	'color'		: 0,
+}
+
 def new_object(factory, data):
 	obj = deepcopy(factory)
 	for key in data:
@@ -109,3 +115,10 @@ def get_today_upc():
                 return [obj for obj in rest.get('upc') if datetime.fromtimestamp(obj['date_sent']).date() == today]
         except IndexError:
                 raise ValueError("no data")
+
+def update_suggestion(color, suggestion, data={}):
+        data['suggestion'] = suggestion
+        data['date_sent'] = time.time()
+        data['color'] = color
+        new_suggestion = new_object(suggestion_factory, data)
+        rest.post('suggestions', new_suggestion)

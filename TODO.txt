@@ -1,6 +1,5 @@
 ToDo:
-- Figure out how to efficiently retrieve new text messages
-- Add help <command> support and support for multiword commands (ex: upc 15)
+- create a message passing system
 - Design Website
 
 Finished:
@@ -8,8 +7,12 @@ Finished:
 - create new users in the server
 - way to update certain fields in the server for a particular color
 ???
-- Create a encryption/hashing algorithm for converting phone numbers to colors
+- Create a encryption/hashing scheme for converting phone numbers to colors
 - Connect Twilio to Raspberry Pi
 - Write command suite and algorithm for responding to texts
 - Write a background script that queries for unanswered commands
 
+12/6/16 5:31 AM
+- Figure out how to efficiently retrieve new text messages
+- Add help <command> support and support for multiword commands (ex: upc 15)
+- Working  about command and upc commands
