@@ -24,6 +24,8 @@ def process_unprocessed_texts():
 				process_text(message)
 			except Exception as e:
 				send_message("Yo, something went wrong. Check the error files.", "+14085208922")
+				send_message("Sorry, about that. You discovered a bug in my system and I'll have it fixed soon. I'll leave a message in your inbox (text messages). Thanks for baring with me!", message.from_)
+				logging.error(datetime.now().strftime("%B %d, %Y %I:%M:%S %p"))
 				logging.error(traceback.format_exc())
 		numbers_processed.add(message.from_)
 		delete_message(message)

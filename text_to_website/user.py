@@ -8,6 +8,7 @@ def process_text(text_data):
 		color = hashtocolor.get_color(from_num)
 	except ValueError:
 		generate_new_user(text_data)
+		return
 	command.process_next_command(color, text_data)	
 		
 def generate_new_user(text_data):

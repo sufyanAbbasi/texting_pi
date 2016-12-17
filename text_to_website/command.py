@@ -87,7 +87,7 @@ def initialize(color, data):
 		messages.send_message("Sweet! Welcome to the team. Text helpme to see a list of commands.", data['from'])
 	else:
 		messages.send_message("All good. Text me any time.", data['from'])
-		delete(color, data)
+		init_delete(color, data)
 
 def init_delete(color, data):
 	messages.send_message("Thanks for being a part of this! You will be deleted from this server, but you can always text back at this number.\nHowever, everything you've posted will remain on the server.", data['from'])	

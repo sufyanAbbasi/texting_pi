@@ -42,6 +42,11 @@ suggestion_factory = {
 	'color'		: 0,
 }
 
+laundry_factory = {
+	'color'		:0
+	
+}
+
 def new_object(factory, data):
 	obj = deepcopy(factory)
 	for key in data:

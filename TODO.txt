@@ -1,7 +1,5 @@
 ToDo:
-- create a message passing system
 - Design Website
-- schedule deleting all the stuff in Twilio at midnight
 
 Finished:
 10/28/16 5:32 AM
@@ -17,3 +15,7 @@ Finished:
 - Figure out how to efficiently retrieve new text messages
 - Add help <command> support and support for multiword commands (ex: upc 15)
 - Working  about command and upc commands
+
+12/8/16 8:01 PM
+- Implemented message passing system
+- Dealt with error logging
