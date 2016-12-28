@@ -1,4 +1,4 @@
-var ROOT = "http://vaspberry.duckdns.org:3000/"
+var ROOT = "http://vaspberry.duckdns.org/"
 var LIMIT = 10;
 
 

@@ -1,5 +1,5 @@
 import requests
-URL = 'http://localhost:3000/'
+URL = 'http://localhost/'
 def get(query, params_data=None):
 	r = requests.get(URL + query, params=params_data) if params_data is not None else requests.get(URL + query)
 	r.raise_for_status()
