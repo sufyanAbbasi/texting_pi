@@ -61,42 +61,132 @@ html, body{
     font-family: monospace;
 }
 
-#messages-area{
+.x-button{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.x-button:before{
+    content: '\140a';
+    margin-right: 8px;
+}
+
+.message.about{
+    display: none;
+}
+
+.message.info{
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    font-size: .8em;
+}
+
+
+.header{
+    margin: 6px;
+    /*background-color: rgba(0,0,0,.5);*/
+    color: #777;
+    font-size: .8em;
+    overflow-wrap: break-word;
+}
+
+.header a{
+    display: inline-block;
+    color: inherit;
+    text-decoration: inherit;
+    padding: 5px;
+    margin: 2px;
+    background-color: rgba(0,255,156,.8);
+    transition: background-color .4s;
+}
+
+.header a:hover{
+    background-color: #666;
+    color: white;
+}
+
+.content > *{
+    margin: 6px;
 }
 
 .message{
     display: inline-block;
     padding: 4px;
-    margin: 8px;
     font-size: 1em;
     background-color: #eee;
     transition: background-color .3s;
-    cursor: pointer;
-
+    word-wrap: break-word;
 }
 
-.message:hover, .message:active {
-    background-color: #555;
+.user.message:hover, .user.message:active {
+    /*background-color: #555;*/
 }
 
+.vote-buttons {
+    /*visibility: hidden;*/
+    position: relative;
+    height: 30px;
+    min-width: 100px;
+    /*max-width: 300px;*/
+}
+
+.vote-button {
+    position: absolute;
+    width: calc(50% - 3px);
+    height: 100%;
+    top: 0;
+    background-color: rgba(255,255,255,.75);
+    transition: background-color .1s;
+    border-radius: 10px;
+}
+
+.vote-button:hover{
+    background-color: rgb(255,255,255);
+}
+
+.vote-button:active{
+    background-color: rgba(255,255,255,.75);
+}
+
+.vote-button:after{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.downvote {
+    left:0;
+}
+
+.downvote:after{
+    content: '-';
+}
+
+
+.upvote {
+    right:0;
+}
+
+.upvote:after{
+    content: '+';
+}
 
 .hover-box {
-    visibility: hidden;
-    position: absolute;
-    background-color: #555;
-    color: white;
-
+    background-color: white;
 }
 
 .hover-box p {
+    /*display: inline-block;*/
     font-size: .65em;
     margin: 5px;
+    color: black;
 }
 
-.message:hover + .hover-box, .message:active + .hover-box{
-    visibility: visible;
-}
-
+/*.user.message:hover > .hover-box, .user.message:active > .hover-box{
+    display: block;
+}*/
 
 /* ==========================================================================
    Media Queries

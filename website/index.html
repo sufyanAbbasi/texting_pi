@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +14,30 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <div id="messages-area"></div>
+        <div class="header">
+            <a href="#about">About</a>
+            <a href="#community-guidelines">Community Guidelines</a>
+            <a href="https://github.com/sufyanAbbasi/texting_pi" target="_blank">Code</a>
+            <a href="sms:+14242420412" target="_blank">Submit a message to +1(424)242-0412</a>
+        </div>
+        <div class="content" id="messages-area">
+            <div class="message info"><a class="x-button" href="#all"></a>
+                Showing All.
+            </div>
+            <div class="message about">
+                Welcome to a message board community for Vassar by a Vassar student, since this website is only accessible within Vassar's network. To send a message to this board, send a text to +1(424)242-0412 in the format "message &lt;your message&gt;" If you text "help" to the number, you can find a list of other commands to use!
+            </div>
+            <div class="message about">
+                This project was created by Sufyan Abbasi and is running on a Raspberry Pi. The source code for the entire project is in this Github Repository: <a href="https://github.com/sufyanAbbasi/texting_pi" target="_blank">github.com/sufyanAbbasi/texting_pi</a>.
+            </div>
+            <div class="message community-guidelines">
+                <strong>Community Guidelines:</strong><br>
+                Use this as a space to express your thoughts about the world or to tell people that you exist. Your message is <strong>completely anonymous</strong> except for your designated color. Your phone number is never saved on the server (except for the last four digits for indexing purposes).
+            </div>
+            <div class="message community-guidelines">
+                Please, <strong>no hateful speech</strong> meant to divide the Vassar community attacking race, gender, sexual orientation, religion, nationality, age or any other identity groups (or for trolling purposes). All comments will be left on the board to the best of my ability, so if you disagree with something, hide it by subtracting it away.
+            </div>
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/vendor/dateFormat.js"></script>
